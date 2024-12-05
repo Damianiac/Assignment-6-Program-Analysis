@@ -1,0 +1,2209 @@
+configure: loading site script /etc/config.site
+configure: Configuration created at Sat Nov 30 17:29:16 CST 2024.
+checking for basename... /usr/bin/basename
+checking for dirname... /usr/bin/dirname
+checking for file... /usr/bin/file
+checking for ldd... /usr/bin/ldd
+checking for echo... echo [builtin]
+checking for tr... /usr/bin/tr
+checking for uname... /usr/bin/uname
+checking for wc... /usr/bin/wc
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for locale... /usr/bin/locale
+checking for cygpath... /usr/bin/cygpath
+checking for cmd.exe... /c/Windows/System32/cmd.exe
+checking build system type... x86_64-pc-msys
+checking host system type... x86_64-pc-msys
+checking target system type... x86_64-pc-msys
+checking openjdk-build os-cpu... windows-x86_64
+checking openjdk-target os-cpu... windows-x86_64
+checking compilation type... native
+checking Windows environment type... msys2
+checking msys2 drive prefix... ''
+checking msys2 root directory as Windows path... 'C:\msys64'
+checking msys2 temp directory... /tmp
+checking msys2 release... 3.5.4-0bc1222b.x86_64
+checking msys2 version... 2024-11-23 10:59 UTC
+checking Windows version... 10.0.22631.4460
+checking what kind of 'find' is first on the PATH... unix style
+checking for top-level directory... /c/users/dente/desktop/jdk_program_analysis/jdk
+checking for bash... /usr/bin/bash
+checking for cat... /usr/bin/cat
+checking for chmod... /usr/bin/chmod
+checking for cp... /usr/bin/cp
+checking for cut... /usr/bin/cut
+checking for date... /usr/bin/date
+checking for gdiff... [not found]
+checking for diff... /usr/bin/diff
+checking for expr... /usr/bin/expr
+checking for find... /usr/bin/find
+checking for gunzip... /usr/bin/gunzip
+checking for pigz... [not found]
+checking for gzip... /usr/bin/gzip
+checking for head... /usr/bin/head
+checking for ln... /usr/bin/ln
+checking for ls... /usr/bin/ls
+checking for gmkdir... [not found]
+checking for mkdir... /usr/bin/mkdir
+checking for mktemp... /usr/bin/mktemp
+checking for mv... /usr/bin/mv
+checking for gawk... /usr/bin/gawk
+checking for printf... printf [builtin]
+checking for rm... /usr/bin/rm
+checking for rmdir... /usr/bin/rmdir
+checking for sh... /usr/bin/sh
+checking for sort... /usr/bin/sort
+checking for tail... /usr/bin/tail
+checking for gtar... [not found]
+checking for tar... /usr/bin/tar
+checking for tee... /usr/bin/tee
+checking for touch... /usr/bin/touch
+checking for xargs... /usr/bin/xargs
+checking for fgrep... /usr/bin/grep -F
+checking for cmake... [not found]
+checking for df... /usr/bin/df
+checking for git... /usr/bin/git
+checking for nice... /usr/bin/nice
+checking for greadlink... [not found]
+checking for readlink... /usr/bin/readlink
+checking for whoami... /usr/bin/whoami
+checking for lsb_release... [not found]
+checking for cmp... /usr/bin/cmp
+checking for uniq... /usr/bin/uniq
+checking for build environment type... dev, default (calculated from 'auto')
+checking if custom source is suppressed (openjdk-only)... disabled, default
+checking for --enable-debug... disabled, default
+checking which debug level to use... release
+checking which variants of the JVM to build... server
+checking if absolute paths should be allowed in the build output... no, release build
+checking for toolchain path... 
+checking for sysroot... 
+checking for extra path... 
+checking where to store configuration... in default location
+checking what configuration name to use... windows-x86_64-server-release
+checking for zypper... [not found]
+checking for apt-get... [not found]
+checking for yum... [not found]
+checking for brew... [not found]
+checking for port... [not found]
+checking for pkgutil... [not found]
+checking for pkgadd... [not found]
+checking for pacman... /usr/bin/pacman
+checking for pandoc... [not found]
+checking for gmake... [not found]
+checking for make... /usr/bin/make
+configure: Testing potential make at /usr/bin/make, found using make in PATH
+configure: Using GNU make at /usr/bin/make (version: GNU Make 4.4.1)
+checking if make --output-sync is supported... yes
+checking for make --output-sync value... none, default
+checking if find supports -delete... yes
+checking what type of tar was found... gnu
+checking that grep (/usr/bin/grep) -Fx handles empty lines in the pattern list correctly... yes
+checking for unzip... [not found]
+configure: error: Could not find required tool for UNZIP
+configure: loading site script /etc/config.site
+configure: Configuration created at Sat Nov 30 17:31:22 CST 2024.
+checking for basename... /usr/bin/basename
+checking for dirname... /usr/bin/dirname
+checking for file... /usr/bin/file
+checking for ldd... /usr/bin/ldd
+checking for echo... echo [builtin]
+checking for tr... /usr/bin/tr
+checking for uname... /usr/bin/uname
+checking for wc... /usr/bin/wc
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for locale... /usr/bin/locale
+checking for cygpath... /usr/bin/cygpath
+checking for cmd.exe... /c/Windows/System32/cmd.exe
+checking build system type... x86_64-pc-msys
+checking host system type... x86_64-pc-msys
+checking target system type... x86_64-pc-msys
+checking openjdk-build os-cpu... windows-x86_64
+checking openjdk-target os-cpu... windows-x86_64
+checking compilation type... native
+checking Windows environment type... msys2
+checking msys2 drive prefix... ''
+checking msys2 root directory as Windows path... 'C:\msys64'
+checking msys2 temp directory... /tmp
+checking msys2 release... 3.5.4-0bc1222b.x86_64
+checking msys2 version... 2024-11-23 10:59 UTC
+checking Windows version... 10.0.22631.4460
+checking what kind of 'find' is first on the PATH... unix style
+checking for top-level directory... /c/users/dente/desktop/jdk_program_analysis/jdk
+checking for bash... /usr/bin/bash
+checking for cat... /usr/bin/cat
+checking for chmod... /usr/bin/chmod
+checking for cp... /usr/bin/cp
+checking for cut... /usr/bin/cut
+checking for date... /usr/bin/date
+checking for gdiff... [not found]
+checking for diff... /usr/bin/diff
+checking for expr... /usr/bin/expr
+checking for find... /usr/bin/find
+checking for gunzip... /usr/bin/gunzip
+checking for pigz... [not found]
+checking for gzip... /usr/bin/gzip
+checking for head... /usr/bin/head
+checking for ln... /usr/bin/ln
+checking for ls... /usr/bin/ls
+checking for gmkdir... [not found]
+checking for mkdir... /usr/bin/mkdir
+checking for mktemp... /usr/bin/mktemp
+checking for mv... /usr/bin/mv
+checking for gawk... /usr/bin/gawk
+checking for printf... printf [builtin]
+checking for rm... /usr/bin/rm
+checking for rmdir... /usr/bin/rmdir
+checking for sh... /usr/bin/sh
+checking for sort... /usr/bin/sort
+checking for tail... /usr/bin/tail
+checking for gtar... [not found]
+checking for tar... /usr/bin/tar
+checking for tee... /usr/bin/tee
+checking for touch... /usr/bin/touch
+checking for xargs... /usr/bin/xargs
+checking for fgrep... /usr/bin/grep -F
+checking for cmake... [not found]
+checking for df... /usr/bin/df
+checking for git... /usr/bin/git
+checking for nice... /usr/bin/nice
+checking for greadlink... [not found]
+checking for readlink... /usr/bin/readlink
+checking for whoami... /usr/bin/whoami
+checking for lsb_release... [not found]
+checking for cmp... /usr/bin/cmp
+checking for uniq... /usr/bin/uniq
+checking for build environment type... dev, default (calculated from 'auto')
+checking if custom source is suppressed (openjdk-only)... disabled, default
+checking for --enable-debug... disabled, default
+checking which debug level to use... release
+checking which variants of the JVM to build... server
+checking if absolute paths should be allowed in the build output... no, release build
+checking for toolchain path... 
+checking for sysroot... 
+checking for extra path... 
+checking where to store configuration... in default location
+checking what configuration name to use... windows-x86_64-server-release
+checking for zypper... [not found]
+checking for apt-get... [not found]
+checking for yum... [not found]
+checking for brew... [not found]
+checking for port... [not found]
+checking for pkgutil... [not found]
+checking for pkgadd... [not found]
+checking for pacman... /usr/bin/pacman
+checking for pandoc... [not found]
+checking for gmake... [not found]
+checking for make... /usr/bin/make
+configure: Testing potential make at /usr/bin/make, found using make in PATH
+configure: Using GNU make at /usr/bin/make (version: GNU Make 4.4.1)
+checking if make --output-sync is supported... yes
+checking for make --output-sync value... none, default
+checking if find supports -delete... yes
+checking what type of tar was found... gnu
+checking that grep (/usr/bin/grep) -Fx handles empty lines in the pattern list correctly... yes
+checking for unzip... /usr/bin/unzip
+checking for zip... /usr/bin/zip
+checking for greadelf... [not found]
+checking for readelf... /usr/bin/readelf
+checking for dot... [not found]
+checking for stat... /usr/bin/stat
+checking for time... time [builtin]
+checking for flock... /usr/bin/flock
+checking for dtrace... [not found]
+checking for gpatch... [not found]
+checking for patch... [not found]
+checking if date is a GNU compatible version... yes
+checking bash version... 5.2.37
+checking if bash supports pipefail... yes
+checking if bash supports errexit (-e)... yes
+checking for pkg-config... no
+checking for default LOG value... 
+checking for JMOD compression type... zip-6, default
+checking whether or not a JDK suitable for linking from the run-time image should be produced... disabled, default
+checking if packaged modules are kept... enabled, default
+checking for --with-build-user... dente, default
+checking for --with-jdk-rc-name... OpenJDK Platform, default
+checking for --with-vendor-name... N/A, default
+checking for --with-jdk-rc-company-name... N/A, default
+checking for --with-vendor-url... https://openjdk.org/, default
+checking for --with-vendor-bug-url... https://bugreport.java.com/bugreport/, default
+checking for --with-vendor-vm-bug-url... https://bugreport.java.com/bugreport/crash.jsp, default
+checking for --with-version-string... <none>, default
+checking for --with-version-feature... 24, default
+checking for --with-version-date... 2025-03-18, default
+checking for --with-vendor-version-string... <disabled>, default
+checking for --with-macosx-bundle-name-base... OpenJDK, default
+checking for --with-macosx-bundle-id-base... net.java.openjdk-internal, default
+checking for --with-macosx-bundle-build-version... 0, default
+checking for version string... 24-internal-adhoc.dente.jdk
+checking for javac... [not found]
+checking for java... [not found]
+configure: Found potential Boot JDK using well-known locations (in /c/progra~1/java/jdk-21)
+configure: Potential Boot JDK found at /c/progra~1/java/jdk-21 is incorrect JDK version (java version "21.0.5" 2024-10-15 LTS Java(TM) SE Runtime Environment (build 21.0.5+9-LTS-239) Java HotSpot(TM) 64-Bit Server VM (build 21.0.5+9-LTS-239, mixed mode, sharing)); ignoring
+configure: (Your Boot JDK version must be one of: 23 24)
+configure: Found potential Boot JDK using well-known locations (in /c/progra~1/java/jdk-21)
+configure: Potential Boot JDK found at /c/progra~1/java/jdk-21 is incorrect JDK version (java version "21.0.5" 2024-10-15 LTS Java(TM) SE Runtime Environment (build 21.0.5+9-LTS-239) Java HotSpot(TM) 64-Bit Server VM (build 21.0.5+9-LTS-239, mixed mode, sharing)); ignoring
+configure: (Your Boot JDK version must be one of: 23 24)
+configure: Could not find a valid Boot JDK. OpenJDK distributions are available at http://jdk.java.net/.
+configure: This might be fixed by explicitly setting --with-boot-jdk
+configure: error: Cannot continue
+configure: loading site script /etc/config.site
+configure: Configuration created at Sat Nov 30 17:31:53 CST 2024.
+checking for basename... /usr/bin/basename
+checking for dirname... /usr/bin/dirname
+checking for file... /usr/bin/file
+checking for ldd... /usr/bin/ldd
+checking for echo... echo [builtin]
+checking for tr... /usr/bin/tr
+checking for uname... /usr/bin/uname
+checking for wc... /usr/bin/wc
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for locale... /usr/bin/locale
+checking for cygpath... /usr/bin/cygpath
+checking for cmd.exe... /c/Windows/System32/cmd.exe
+checking build system type... x86_64-pc-msys
+checking host system type... x86_64-pc-msys
+checking target system type... x86_64-pc-msys
+checking openjdk-build os-cpu... windows-x86_64
+checking openjdk-target os-cpu... windows-x86_64
+checking compilation type... native
+checking Windows environment type... msys2
+checking msys2 drive prefix... ''
+checking msys2 root directory as Windows path... 'C:\msys64'
+checking msys2 temp directory... /tmp
+checking msys2 release... 3.5.4-0bc1222b.x86_64
+checking msys2 version... 2024-11-23 10:59 UTC
+checking Windows version... 10.0.22631.4460
+checking what kind of 'find' is first on the PATH... unix style
+checking for top-level directory... /c/users/dente/desktop/jdk_program_analysis/jdk
+checking for bash... /usr/bin/bash
+checking for cat... /usr/bin/cat
+checking for chmod... /usr/bin/chmod
+checking for cp... /usr/bin/cp
+checking for cut... /usr/bin/cut
+checking for date... /usr/bin/date
+checking for gdiff... [not found]
+checking for diff... /usr/bin/diff
+checking for expr... /usr/bin/expr
+checking for find... /usr/bin/find
+checking for gunzip... /usr/bin/gunzip
+checking for pigz... [not found]
+checking for gzip... /usr/bin/gzip
+checking for head... /usr/bin/head
+checking for ln... /usr/bin/ln
+checking for ls... /usr/bin/ls
+checking for gmkdir... [not found]
+checking for mkdir... /usr/bin/mkdir
+checking for mktemp... /usr/bin/mktemp
+checking for mv... /usr/bin/mv
+checking for gawk... /usr/bin/gawk
+checking for printf... printf [builtin]
+checking for rm... /usr/bin/rm
+checking for rmdir... /usr/bin/rmdir
+checking for sh... /usr/bin/sh
+checking for sort... /usr/bin/sort
+checking for tail... /usr/bin/tail
+checking for gtar... [not found]
+checking for tar... /usr/bin/tar
+checking for tee... /usr/bin/tee
+checking for touch... /usr/bin/touch
+checking for xargs... /usr/bin/xargs
+checking for fgrep... /usr/bin/grep -F
+checking for cmake... [not found]
+checking for df... /usr/bin/df
+checking for git... /usr/bin/git
+checking for nice... /usr/bin/nice
+checking for greadlink... [not found]
+checking for readlink... /usr/bin/readlink
+checking for whoami... /usr/bin/whoami
+checking for lsb_release... [not found]
+checking for cmp... /usr/bin/cmp
+checking for uniq... /usr/bin/uniq
+checking for build environment type... dev, default (calculated from 'auto')
+checking if custom source is suppressed (openjdk-only)... disabled, default
+checking for --enable-debug... disabled, default
+checking which debug level to use... release
+checking which variants of the JVM to build... server
+checking if absolute paths should be allowed in the build output... no, release build
+checking for toolchain path... 
+checking for sysroot... 
+checking for extra path... 
+checking where to store configuration... in default location
+checking what configuration name to use... windows-x86_64-server-release
+checking for zypper... [not found]
+checking for apt-get... [not found]
+checking for yum... [not found]
+checking for brew... [not found]
+checking for port... [not found]
+checking for pkgutil... [not found]
+checking for pkgadd... [not found]
+checking for pacman... /usr/bin/pacman
+checking for pandoc... [not found]
+checking for gmake... [not found]
+checking for make... /usr/bin/make
+configure: Testing potential make at /usr/bin/make, found using make in PATH
+configure: Using GNU make at /usr/bin/make (version: GNU Make 4.4.1)
+checking if make --output-sync is supported... yes
+checking for make --output-sync value... none, default
+checking if find supports -delete... yes
+checking what type of tar was found... gnu
+checking that grep (/usr/bin/grep) -Fx handles empty lines in the pattern list correctly... yes
+checking for unzip... /usr/bin/unzip
+checking for zip... /usr/bin/zip
+checking for greadelf... [not found]
+checking for readelf... /usr/bin/readelf
+checking for dot... [not found]
+checking for stat... /usr/bin/stat
+checking for time... time [builtin]
+checking for flock... /usr/bin/flock
+checking for dtrace... [not found]
+checking for gpatch... [not found]
+checking for patch... [not found]
+checking if date is a GNU compatible version... yes
+checking bash version... 5.2.37
+checking if bash supports pipefail... yes
+checking if bash supports errexit (-e)... yes
+checking for pkg-config... no
+checking for default LOG value... 
+checking for JMOD compression type... zip-6, default
+checking whether or not a JDK suitable for linking from the run-time image should be produced... disabled, default
+checking if packaged modules are kept... enabled, default
+checking for --with-build-user... dente, default
+checking for --with-jdk-rc-name... OpenJDK Platform, default
+checking for --with-vendor-name... N/A, default
+checking for --with-jdk-rc-company-name... N/A, default
+checking for --with-vendor-url... https://openjdk.org/, default
+checking for --with-vendor-bug-url... https://bugreport.java.com/bugreport/, default
+checking for --with-vendor-vm-bug-url... https://bugreport.java.com/bugreport/crash.jsp, default
+checking for --with-version-string... <none>, default
+checking for --with-version-feature... 24, default
+checking for --with-version-date... 2025-03-18, default
+checking for --with-vendor-version-string... <disabled>, default
+checking for --with-macosx-bundle-name-base... OpenJDK, default
+checking for --with-macosx-bundle-id-base... net.java.openjdk-internal, default
+checking for --with-macosx-bundle-build-version... 0, default
+checking for version string... 24-internal-adhoc.dente.jdk
+checking for javac... [not found]
+checking for java... [not found]
+configure: Found potential Boot JDK using well-known locations (in /c/progra~1/java/jdk-21)
+configure: Potential Boot JDK found at /c/progra~1/java/jdk-21 is incorrect JDK version (java version "21.0.5" 2024-10-15 LTS Java(TM) SE Runtime Environment (build 21.0.5+9-LTS-239) Java HotSpot(TM) 64-Bit Server VM (build 21.0.5+9-LTS-239, mixed mode, sharing)); ignoring
+configure: (Your Boot JDK version must be one of: 23 24)
+configure: Found potential Boot JDK using well-known locations (in /c/progra~1/java/jdk-21)
+configure: Potential Boot JDK found at /c/progra~1/java/jdk-21 is incorrect JDK version (java version "21.0.5" 2024-10-15 LTS Java(TM) SE Runtime Environment (build 21.0.5+9-LTS-239) Java HotSpot(TM) 64-Bit Server VM (build 21.0.5+9-LTS-239, mixed mode, sharing)); ignoring
+configure: (Your Boot JDK version must be one of: 23 24)
+configure: Could not find a valid Boot JDK. OpenJDK distributions are available at http://jdk.java.net/.
+configure: This might be fixed by explicitly setting --with-boot-jdk
+configure: error: Cannot continue
+configure: loading site script /etc/config.site
+configure: Configuration created at Sat Nov 30 17:55:43 CST 2024.
+checking for basename... /usr/bin/basename
+checking for dirname... /usr/bin/dirname
+checking for file... /usr/bin/file
+checking for ldd... /usr/bin/ldd
+checking for echo... echo [builtin]
+checking for tr... /usr/bin/tr
+checking for uname... /usr/bin/uname
+checking for wc... /usr/bin/wc
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for locale... /usr/bin/locale
+checking for cygpath... /usr/bin/cygpath
+checking for cmd.exe... /c/Windows/System32/cmd.exe
+checking build system type... x86_64-pc-msys
+checking host system type... x86_64-pc-msys
+checking target system type... x86_64-pc-msys
+checking openjdk-build os-cpu... windows-x86_64
+checking openjdk-target os-cpu... windows-x86_64
+checking compilation type... native
+checking Windows environment type... msys2
+checking msys2 drive prefix... ''
+checking msys2 root directory as Windows path... 'C:\msys64'
+checking msys2 temp directory... /tmp
+checking msys2 release... 3.5.4-0bc1222b.x86_64
+checking msys2 version... 2024-11-23 10:59 UTC
+checking Windows version... 10.0.22631.4460
+checking what kind of 'find' is first on the PATH... unix style
+checking for top-level directory... /c/users/dente/desktop/jdk_program_analysis/jdk
+checking for bash... /usr/bin/bash
+checking for cat... /usr/bin/cat
+checking for chmod... /usr/bin/chmod
+checking for cp... /usr/bin/cp
+checking for cut... /usr/bin/cut
+checking for date... /usr/bin/date
+checking for gdiff... [not found]
+checking for diff... /usr/bin/diff
+checking for expr... /usr/bin/expr
+checking for find... /usr/bin/find
+checking for gunzip... /usr/bin/gunzip
+checking for pigz... [not found]
+checking for gzip... /usr/bin/gzip
+checking for head... /usr/bin/head
+checking for ln... /usr/bin/ln
+checking for ls... /usr/bin/ls
+checking for gmkdir... [not found]
+checking for mkdir... /usr/bin/mkdir
+checking for mktemp... /usr/bin/mktemp
+checking for mv... /usr/bin/mv
+checking for gawk... /usr/bin/gawk
+checking for printf... printf [builtin]
+checking for rm... /usr/bin/rm
+checking for rmdir... /usr/bin/rmdir
+checking for sh... /usr/bin/sh
+checking for sort... /usr/bin/sort
+checking for tail... /usr/bin/tail
+checking for gtar... [not found]
+checking for tar... /usr/bin/tar
+checking for tee... /usr/bin/tee
+checking for touch... /usr/bin/touch
+checking for xargs... /usr/bin/xargs
+checking for fgrep... /usr/bin/grep -F
+checking for cmake... [not found]
+checking for df... /usr/bin/df
+checking for git... /usr/bin/git
+checking for nice... /usr/bin/nice
+checking for greadlink... [not found]
+checking for readlink... /usr/bin/readlink
+checking for whoami... /usr/bin/whoami
+checking for lsb_release... [not found]
+checking for cmp... /usr/bin/cmp
+checking for uniq... /usr/bin/uniq
+checking for build environment type... dev, default (calculated from 'auto')
+checking if custom source is suppressed (openjdk-only)... disabled, default
+checking for --enable-debug... disabled, default
+checking which debug level to use... release
+checking which variants of the JVM to build... server
+checking if absolute paths should be allowed in the build output... no, release build
+checking for toolchain path... 
+checking for sysroot... 
+checking for extra path... 
+checking where to store configuration... in default location
+checking what configuration name to use... windows-x86_64-server-release
+checking for zypper... [not found]
+checking for apt-get... [not found]
+checking for yum... [not found]
+checking for brew... [not found]
+checking for port... [not found]
+checking for pkgutil... [not found]
+checking for pkgadd... [not found]
+checking for pacman... /usr/bin/pacman
+checking for pandoc... [not found]
+checking for gmake... [not found]
+checking for make... /usr/bin/make
+configure: Testing potential make at /usr/bin/make, found using make in PATH
+configure: Using GNU make at /usr/bin/make (version: GNU Make 4.4.1)
+checking if make --output-sync is supported... yes
+checking for make --output-sync value... none, default
+checking if find supports -delete... yes
+checking what type of tar was found... gnu
+checking that grep (/usr/bin/grep) -Fx handles empty lines in the pattern list correctly... yes
+checking for unzip... /usr/bin/unzip
+checking for zip... /usr/bin/zip
+checking for greadelf... [not found]
+checking for readelf... /usr/bin/readelf
+checking for dot... [not found]
+checking for stat... /usr/bin/stat
+checking for time... time [builtin]
+checking for flock... /usr/bin/flock
+checking for dtrace... [not found]
+checking for gpatch... [not found]
+checking for patch... [not found]
+checking if date is a GNU compatible version... yes
+checking bash version... 5.2.37
+checking if bash supports pipefail... yes
+checking if bash supports errexit (-e)... yes
+checking for pkg-config... no
+checking for default LOG value... 
+checking for JMOD compression type... zip-6, default
+checking whether or not a JDK suitable for linking from the run-time image should be produced... disabled, default
+checking if packaged modules are kept... enabled, default
+checking for --with-build-user... dente, default
+checking for --with-jdk-rc-name... OpenJDK Platform, default
+checking for --with-vendor-name... N/A, default
+checking for --with-jdk-rc-company-name... N/A, default
+checking for --with-vendor-url... https://openjdk.org/, default
+checking for --with-vendor-bug-url... https://bugreport.java.com/bugreport/, default
+checking for --with-vendor-vm-bug-url... https://bugreport.java.com/bugreport/crash.jsp, default
+checking for --with-version-string... <none>, default
+checking for --with-version-feature... 24, default
+checking for --with-version-date... 2025-03-18, default
+checking for --with-vendor-version-string... <disabled>, default
+checking for --with-macosx-bundle-name-base... OpenJDK, default
+checking for --with-macosx-bundle-id-base... net.java.openjdk-internal, default
+checking for --with-macosx-bundle-build-version... 0, default
+checking for version string... 24-internal-adhoc.dente.jdk
+checking for javac... [not found]
+checking for java... [not found]
+configure: Found potential Boot JDK using well-known locations (in /c/progra~1/java/jdk-21)
+configure: Potential Boot JDK found at /c/progra~1/java/jdk-21 is incorrect JDK version (java version "21.0.5" 2024-10-15 LTS Java(TM) SE Runtime Environment (build 21.0.5+9-LTS-239) Java HotSpot(TM) 64-Bit Server VM (build 21.0.5+9-LTS-239, mixed mode, sharing)); ignoring
+configure: (Your Boot JDK version must be one of: 23 24)
+configure: Found potential Boot JDK using well-known locations (in /c/progra~1/java/jdk-21)
+configure: Potential Boot JDK found at /c/progra~1/java/jdk-21 is incorrect JDK version (java version "21.0.5" 2024-10-15 LTS Java(TM) SE Runtime Environment (build 21.0.5+9-LTS-239) Java HotSpot(TM) 64-Bit Server VM (build 21.0.5+9-LTS-239, mixed mode, sharing)); ignoring
+configure: (Your Boot JDK version must be one of: 23 24)
+configure: Could not find a valid Boot JDK. OpenJDK distributions are available at http://jdk.java.net/.
+configure: This might be fixed by explicitly setting --with-boot-jdk
+configure: error: Cannot continue
+configure: loading site script /etc/config.site
+configure: Configuration created at Sat Nov 30 18:02:31 CST 2024.
+checking for basename... /usr/bin/basename
+checking for dirname... /usr/bin/dirname
+checking for file... /usr/bin/file
+checking for ldd... /usr/bin/ldd
+checking for echo... echo [builtin]
+checking for tr... /usr/bin/tr
+checking for uname... /usr/bin/uname
+checking for wc... /usr/bin/wc
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for locale... /usr/bin/locale
+checking for cygpath... /usr/bin/cygpath
+checking for cmd.exe... /c/Windows/System32/cmd.exe
+checking build system type... x86_64-pc-msys
+checking host system type... x86_64-pc-msys
+checking target system type... x86_64-pc-msys
+checking openjdk-build os-cpu... windows-x86_64
+checking openjdk-target os-cpu... windows-x86_64
+checking compilation type... native
+checking Windows environment type... msys2
+checking msys2 drive prefix... ''
+checking msys2 root directory as Windows path... 'C:\msys64'
+checking msys2 temp directory... /tmp
+checking msys2 release... 3.5.4-0bc1222b.x86_64
+checking msys2 version... 2024-11-23 10:59 UTC
+checking Windows version... 10.0.22631.4460
+checking what kind of 'find' is first on the PATH... unix style
+checking for top-level directory... /c/users/dente/desktop/jdk_program_analysis/jdk
+checking for bash... /usr/bin/bash
+checking for cat... /usr/bin/cat
+checking for chmod... /usr/bin/chmod
+checking for cp... /usr/bin/cp
+checking for cut... /usr/bin/cut
+checking for date... /usr/bin/date
+checking for gdiff... [not found]
+checking for diff... /usr/bin/diff
+checking for expr... /usr/bin/expr
+checking for find... /usr/bin/find
+checking for gunzip... /usr/bin/gunzip
+checking for pigz... [not found]
+checking for gzip... /usr/bin/gzip
+checking for head... /usr/bin/head
+checking for ln... /usr/bin/ln
+checking for ls... /usr/bin/ls
+checking for gmkdir... [not found]
+checking for mkdir... /usr/bin/mkdir
+checking for mktemp... /usr/bin/mktemp
+checking for mv... /usr/bin/mv
+checking for gawk... /usr/bin/gawk
+checking for printf... printf [builtin]
+checking for rm... /usr/bin/rm
+checking for rmdir... /usr/bin/rmdir
+checking for sh... /usr/bin/sh
+checking for sort... /usr/bin/sort
+checking for tail... /usr/bin/tail
+checking for gtar... [not found]
+checking for tar... /usr/bin/tar
+checking for tee... /usr/bin/tee
+checking for touch... /usr/bin/touch
+checking for xargs... /usr/bin/xargs
+checking for fgrep... /usr/bin/grep -F
+checking for cmake... [not found]
+checking for df... /usr/bin/df
+checking for git... /usr/bin/git
+checking for nice... /usr/bin/nice
+checking for greadlink... [not found]
+checking for readlink... /usr/bin/readlink
+checking for whoami... /usr/bin/whoami
+checking for lsb_release... [not found]
+checking for cmp... /usr/bin/cmp
+checking for uniq... /usr/bin/uniq
+checking for build environment type... dev, default (calculated from 'auto')
+checking if custom source is suppressed (openjdk-only)... disabled, default
+checking for --enable-debug... disabled, default
+checking which debug level to use... release
+checking which variants of the JVM to build... server
+checking if absolute paths should be allowed in the build output... no, release build
+checking for toolchain path... 
+checking for sysroot... 
+checking for extra path... 
+checking where to store configuration... in default location
+checking what configuration name to use... windows-x86_64-server-release
+checking for zypper... [not found]
+checking for apt-get... [not found]
+checking for yum... [not found]
+checking for brew... [not found]
+checking for port... [not found]
+checking for pkgutil... [not found]
+checking for pkgadd... [not found]
+checking for pacman... /usr/bin/pacman
+checking for pandoc... [not found]
+checking for gmake... [not found]
+checking for make... /usr/bin/make
+configure: Testing potential make at /usr/bin/make, found using make in PATH
+configure: Using GNU make at /usr/bin/make (version: GNU Make 4.4.1)
+checking if make --output-sync is supported... yes
+checking for make --output-sync value... none, default
+checking if find supports -delete... yes
+checking what type of tar was found... gnu
+checking that grep (/usr/bin/grep) -Fx handles empty lines in the pattern list correctly... yes
+checking for unzip... /usr/bin/unzip
+checking for zip... /usr/bin/zip
+checking for greadelf... [not found]
+checking for readelf... /usr/bin/readelf
+checking for dot... [not found]
+checking for stat... /usr/bin/stat
+checking for time... time [builtin]
+checking for flock... /usr/bin/flock
+checking for dtrace... [not found]
+checking for gpatch... [not found]
+checking for patch... [not found]
+checking if date is a GNU compatible version... yes
+checking bash version... 5.2.37
+checking if bash supports pipefail... yes
+checking if bash supports errexit (-e)... yes
+checking for pkg-config... no
+checking for default LOG value... 
+checking for JMOD compression type... zip-6, default
+checking whether or not a JDK suitable for linking from the run-time image should be produced... disabled, default
+checking if packaged modules are kept... enabled, default
+checking for --with-build-user... dente, default
+checking for --with-jdk-rc-name... OpenJDK Platform, default
+checking for --with-vendor-name... N/A, default
+checking for --with-jdk-rc-company-name... N/A, default
+checking for --with-vendor-url... https://openjdk.org/, default
+checking for --with-vendor-bug-url... https://bugreport.java.com/bugreport/, default
+checking for --with-vendor-vm-bug-url... https://bugreport.java.com/bugreport/crash.jsp, default
+checking for --with-version-string... <none>, default
+checking for --with-version-feature... 24, default
+checking for --with-version-date... 2025-03-18, default
+checking for --with-vendor-version-string... <disabled>, default
+checking for --with-macosx-bundle-name-base... OpenJDK, default
+checking for --with-macosx-bundle-id-base... net.java.openjdk-internal, default
+checking for --with-macosx-bundle-build-version... 0, default
+checking for version string... 24-internal-adhoc.dente.jdk
+checking for javac... [not found]
+checking for java... [not found]
+configure: Found potential Boot JDK using well-known locations (in /c/progra~1/java/jdk-23)
+checking for Boot JDK... /c/progra~1/java/jdk-23
+checking Boot JDK version... java version "23.0.1" 2024-10-15 Java(TM) SE Runtime Environment (build 23.0.1+11-39) Java HotSpot(TM) 64-Bit Server VM (build 23.0.1+11-39, mixed mode, sharing)
+checking for java [Boot JDK]... $BOOT_JDK/bin/java
+checking for javac [Boot JDK]... $BOOT_JDK/bin/javac
+checking for javadoc [Boot JDK]... $BOOT_JDK/bin/javadoc
+checking for jar [Boot JDK]... $BOOT_JDK/bin/jar
+checking if Boot JDK jar supports --date=TIMESTAMP... true
+checking if Boot JDK is 32 or 64 bits... 64
+checking for local Boot JDK Class Data Sharing (CDS)... yes, created
+checking for Build JDK... yes, will use output dir
+checking for docs-reference JDK... no, using interim javadoc for the docs-reference targets
+checking what source date to use... 1733011360, from 'current' (default)
+checking if we should build headless-only (no GUI)... disabled, default
+checking if linker should clean out unused code (linktime-gc)... disabled, default
+checking for graphviz dot... no, cannot generate full docs
+checking for pandoc... no, cannot generate full docs
+checking for --enable-full-docs... disabled, from default 'auto'
+checking for cacerts file... default
+checking for cacerts source... default
+checking for --enable-unlimited-crypto... enabled, default
+checking for jni library path... default
+configure: Using default toolchain microsoft (Microsoft Visual Studio)
+configure: error: Cannot locate a valid Visual Studio installation
+configure: loading site script /etc/config.site
+configure: Configuration created at Sat Nov 30 18:06:18 CST 2024.
+checking for basename... /usr/bin/basename
+checking for dirname... /usr/bin/dirname
+checking for file... /usr/bin/file
+checking for ldd... /usr/bin/ldd
+checking for echo... echo [builtin]
+checking for tr... /usr/bin/tr
+checking for uname... /usr/bin/uname
+checking for wc... /usr/bin/wc
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for locale... /usr/bin/locale
+checking for cygpath... /usr/bin/cygpath
+checking for cmd.exe... /c/Windows/System32/cmd.exe
+checking build system type... x86_64-pc-msys
+checking host system type... x86_64-pc-msys
+checking target system type... x86_64-pc-msys
+checking openjdk-build os-cpu... windows-x86_64
+checking openjdk-target os-cpu... windows-x86_64
+checking compilation type... native
+checking Windows environment type... msys2
+checking msys2 drive prefix... ''
+checking msys2 root directory as Windows path... 'C:\msys64'
+checking msys2 temp directory... /tmp
+checking msys2 release... 3.5.4-0bc1222b.x86_64
+checking msys2 version... 2024-11-23 10:59 UTC
+checking Windows version... 10.0.22631.4460
+checking what kind of 'find' is first on the PATH... unix style
+checking for top-level directory... /c/users/dente/desktop/jdk_program_analysis/jdk
+checking for bash... /usr/bin/bash
+checking for cat... /usr/bin/cat
+checking for chmod... /usr/bin/chmod
+checking for cp... /usr/bin/cp
+checking for cut... /usr/bin/cut
+checking for date... /usr/bin/date
+checking for gdiff... [not found]
+checking for diff... /usr/bin/diff
+checking for expr... /usr/bin/expr
+checking for find... /usr/bin/find
+checking for gunzip... /usr/bin/gunzip
+checking for pigz... [not found]
+checking for gzip... /usr/bin/gzip
+checking for head... /usr/bin/head
+checking for ln... /usr/bin/ln
+checking for ls... /usr/bin/ls
+checking for gmkdir... [not found]
+checking for mkdir... /usr/bin/mkdir
+checking for mktemp... /usr/bin/mktemp
+checking for mv... /usr/bin/mv
+checking for gawk... /usr/bin/gawk
+checking for printf... printf [builtin]
+checking for rm... /usr/bin/rm
+checking for rmdir... /usr/bin/rmdir
+checking for sh... /usr/bin/sh
+checking for sort... /usr/bin/sort
+checking for tail... /usr/bin/tail
+checking for gtar... [not found]
+checking for tar... /usr/bin/tar
+checking for tee... /usr/bin/tee
+checking for touch... /usr/bin/touch
+checking for xargs... /usr/bin/xargs
+checking for fgrep... /usr/bin/grep -F
+checking for cmake... [not found]
+checking for df... /usr/bin/df
+checking for git... /usr/bin/git
+checking for nice... /usr/bin/nice
+checking for greadlink... [not found]
+checking for readlink... /usr/bin/readlink
+checking for whoami... /usr/bin/whoami
+checking for lsb_release... [not found]
+checking for cmp... /usr/bin/cmp
+checking for uniq... /usr/bin/uniq
+checking for build environment type... dev, default (calculated from 'auto')
+checking if custom source is suppressed (openjdk-only)... disabled, default
+checking for --enable-debug... disabled, default
+checking which debug level to use... release
+checking which variants of the JVM to build... server
+checking if absolute paths should be allowed in the build output... no, release build
+checking for toolchain path... 
+checking for sysroot... 
+checking for extra path... 
+checking where to store configuration... in default location
+checking what configuration name to use... windows-x86_64-server-release
+checking for zypper... [not found]
+checking for apt-get... [not found]
+checking for yum... [not found]
+checking for brew... [not found]
+checking for port... [not found]
+checking for pkgutil... [not found]
+checking for pkgadd... [not found]
+checking for pacman... /usr/bin/pacman
+checking for pandoc... [not found]
+checking for gmake... [not found]
+checking for make... /usr/bin/make
+configure: Testing potential make at /usr/bin/make, found using make in PATH
+configure: Using GNU make at /usr/bin/make (version: GNU Make 4.4.1)
+checking if make --output-sync is supported... yes
+checking for make --output-sync value... none, default
+checking if find supports -delete... yes
+checking what type of tar was found... gnu
+checking that grep (/usr/bin/grep) -Fx handles empty lines in the pattern list correctly... yes
+checking for unzip... /usr/bin/unzip
+checking for zip... /usr/bin/zip
+checking for greadelf... [not found]
+checking for readelf... /usr/bin/readelf
+checking for dot... [not found]
+checking for stat... /usr/bin/stat
+checking for time... time [builtin]
+checking for flock... /usr/bin/flock
+checking for dtrace... [not found]
+checking for gpatch... [not found]
+checking for patch... [not found]
+checking if date is a GNU compatible version... yes
+checking bash version... 5.2.37
+checking if bash supports pipefail... yes
+checking if bash supports errexit (-e)... yes
+checking for pkg-config... no
+checking for default LOG value... 
+checking for JMOD compression type... zip-6, default
+checking whether or not a JDK suitable for linking from the run-time image should be produced... disabled, default
+checking if packaged modules are kept... enabled, default
+checking for --with-build-user... dente, default
+checking for --with-jdk-rc-name... OpenJDK Platform, default
+checking for --with-vendor-name... N/A, default
+checking for --with-jdk-rc-company-name... N/A, default
+checking for --with-vendor-url... https://openjdk.org/, default
+checking for --with-vendor-bug-url... https://bugreport.java.com/bugreport/, default
+checking for --with-vendor-vm-bug-url... https://bugreport.java.com/bugreport/crash.jsp, default
+checking for --with-version-string... <none>, default
+checking for --with-version-feature... 24, default
+checking for --with-version-date... 2025-03-18, default
+checking for --with-vendor-version-string... <disabled>, default
+checking for --with-macosx-bundle-name-base... OpenJDK, default
+checking for --with-macosx-bundle-id-base... net.java.openjdk-internal, default
+checking for --with-macosx-bundle-build-version... 0, default
+checking for version string... 24-internal-adhoc.dente.jdk
+checking for javac... [not found]
+checking for java... [not found]
+configure: Found potential Boot JDK using well-known locations (in /c/progra~1/java/jdk-23)
+checking for Boot JDK... /c/progra~1/java/jdk-23
+checking Boot JDK version... java version "23.0.1" 2024-10-15 Java(TM) SE Runtime Environment (build 23.0.1+11-39) Java HotSpot(TM) 64-Bit Server VM (build 23.0.1+11-39, mixed mode, sharing)
+checking for java [Boot JDK]... $BOOT_JDK/bin/java
+checking for javac [Boot JDK]... $BOOT_JDK/bin/javac
+checking for javadoc [Boot JDK]... $BOOT_JDK/bin/javadoc
+checking for jar [Boot JDK]... $BOOT_JDK/bin/jar
+checking if Boot JDK jar supports --date=TIMESTAMP... true
+checking if Boot JDK is 32 or 64 bits... 64
+checking for local Boot JDK Class Data Sharing (CDS)... yes, created
+checking for Build JDK... yes, will use output dir
+checking for docs-reference JDK... no, using interim javadoc for the docs-reference targets
+checking what source date to use... 1733011587, from 'current' (default)
+checking if we should build headless-only (no GUI)... disabled, default
+checking if linker should clean out unused code (linktime-gc)... disabled, default
+checking for graphviz dot... no, cannot generate full docs
+checking for pandoc... no, cannot generate full docs
+checking for --enable-full-docs... disabled, from default 'auto'
+checking for cacerts file... default
+checking for cacerts source... default
+checking for --enable-unlimited-crypto... enabled, default
+checking for jni library path... default
+configure: Using default toolchain microsoft (Microsoft Visual Studio)
+configure: Found Visual Studio installation at /c/progra~1/mib055~1/2022/Community using well-known name
+configure: Warning: None of vcvars64.bat vcvarsx86_amd64.bat were found, Visual Studio installation not recognized. Ignoring
+configure: Found Visual Studio installation at /c/progra~1/mib055~1/2022/Community using well-known name
+configure: Warning: None of vcvars64.bat vcvarsx86_amd64.bat were found, Visual Studio installation not recognized. Ignoring
+configure: error: Cannot locate a valid Visual Studio installation
+configure: loading site script /etc/config.site
+configure: Configuration created at Sat Nov 30 18:12:59 CST 2024.
+checking for basename... /usr/bin/basename
+checking for dirname... /usr/bin/dirname
+checking for file... /usr/bin/file
+checking for ldd... /usr/bin/ldd
+checking for echo... echo [builtin]
+checking for tr... /usr/bin/tr
+checking for uname... /usr/bin/uname
+checking for wc... /usr/bin/wc
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for locale... /usr/bin/locale
+checking for cygpath... /usr/bin/cygpath
+checking for cmd.exe... /c/Windows/System32/cmd.exe
+checking build system type... x86_64-pc-msys
+checking host system type... x86_64-pc-msys
+checking target system type... x86_64-pc-msys
+checking openjdk-build os-cpu... windows-x86_64
+checking openjdk-target os-cpu... windows-x86_64
+checking compilation type... native
+checking Windows environment type... msys2
+checking msys2 drive prefix... ''
+checking msys2 root directory as Windows path... 'C:\msys64'
+checking msys2 temp directory... /tmp
+checking msys2 release... 3.5.4-0bc1222b.x86_64
+checking msys2 version... 2024-11-23 10:59 UTC
+checking Windows version... 10.0.22631.4460
+checking what kind of 'find' is first on the PATH... unix style
+checking for top-level directory... /c/users/dente/desktop/jdk_program_analysis/jdk
+checking for bash... /usr/bin/bash
+checking for cat... /usr/bin/cat
+checking for chmod... /usr/bin/chmod
+checking for cp... /usr/bin/cp
+checking for cut... /usr/bin/cut
+checking for date... /usr/bin/date
+checking for gdiff... [not found]
+checking for diff... /usr/bin/diff
+checking for expr... /usr/bin/expr
+checking for find... /usr/bin/find
+checking for gunzip... /usr/bin/gunzip
+checking for pigz... [not found]
+checking for gzip... /usr/bin/gzip
+checking for head... /usr/bin/head
+checking for ln... /usr/bin/ln
+checking for ls... /usr/bin/ls
+checking for gmkdir... [not found]
+checking for mkdir... /usr/bin/mkdir
+checking for mktemp... /usr/bin/mktemp
+checking for mv... /usr/bin/mv
+checking for gawk... /usr/bin/gawk
+checking for printf... printf [builtin]
+checking for rm... /usr/bin/rm
+checking for rmdir... /usr/bin/rmdir
+checking for sh... /usr/bin/sh
+checking for sort... /usr/bin/sort
+checking for tail... /usr/bin/tail
+checking for gtar... [not found]
+checking for tar... /usr/bin/tar
+checking for tee... /usr/bin/tee
+checking for touch... /usr/bin/touch
+checking for xargs... /usr/bin/xargs
+checking for fgrep... /usr/bin/grep -F
+checking for cmake... [not found]
+checking for df... /usr/bin/df
+checking for git... /usr/bin/git
+checking for nice... /usr/bin/nice
+checking for greadlink... [not found]
+checking for readlink... /usr/bin/readlink
+checking for whoami... /usr/bin/whoami
+checking for lsb_release... [not found]
+checking for cmp... /usr/bin/cmp
+checking for uniq... /usr/bin/uniq
+checking for build environment type... dev, default (calculated from 'auto')
+checking if custom source is suppressed (openjdk-only)... disabled, default
+checking for --enable-debug... disabled, default
+checking which debug level to use... release
+checking which variants of the JVM to build... server
+checking if absolute paths should be allowed in the build output... no, release build
+checking for toolchain path... 
+checking for sysroot... 
+checking for extra path... 
+checking where to store configuration... in default location
+checking what configuration name to use... windows-x86_64-server-release
+checking for zypper... [not found]
+checking for apt-get... [not found]
+checking for yum... [not found]
+checking for brew... [not found]
+checking for port... [not found]
+checking for pkgutil... [not found]
+checking for pkgadd... [not found]
+checking for pacman... /usr/bin/pacman
+checking for pandoc... [not found]
+checking for gmake... [not found]
+checking for make... /usr/bin/make
+configure: Testing potential make at /usr/bin/make, found using make in PATH
+configure: Using GNU make at /usr/bin/make (version: GNU Make 4.4.1)
+checking if make --output-sync is supported... yes
+checking for make --output-sync value... none, default
+checking if find supports -delete... yes
+checking what type of tar was found... gnu
+checking that grep (/usr/bin/grep) -Fx handles empty lines in the pattern list correctly... yes
+checking for unzip... /usr/bin/unzip
+checking for zip... /usr/bin/zip
+checking for greadelf... [not found]
+checking for readelf... /usr/bin/readelf
+checking for dot... [not found]
+checking for stat... /usr/bin/stat
+checking for time... time [builtin]
+checking for flock... /usr/bin/flock
+checking for dtrace... [not found]
+checking for gpatch... [not found]
+checking for patch... [not found]
+checking if date is a GNU compatible version... yes
+checking bash version... 5.2.37
+checking if bash supports pipefail... yes
+checking if bash supports errexit (-e)... yes
+checking for pkg-config... no
+checking for default LOG value... 
+checking for JMOD compression type... zip-6, default
+checking whether or not a JDK suitable for linking from the run-time image should be produced... disabled, default
+checking if packaged modules are kept... enabled, default
+checking for --with-build-user... dente, default
+checking for --with-jdk-rc-name... OpenJDK Platform, default
+checking for --with-vendor-name... N/A, default
+checking for --with-jdk-rc-company-name... N/A, default
+checking for --with-vendor-url... https://openjdk.org/, default
+checking for --with-vendor-bug-url... https://bugreport.java.com/bugreport/, default
+checking for --with-vendor-vm-bug-url... https://bugreport.java.com/bugreport/crash.jsp, default
+checking for --with-version-string... <none>, default
+checking for --with-version-feature... 24, default
+checking for --with-version-date... 2025-03-18, default
+checking for --with-vendor-version-string... <disabled>, default
+checking for --with-macosx-bundle-name-base... OpenJDK, default
+checking for --with-macosx-bundle-id-base... net.java.openjdk-internal, default
+checking for --with-macosx-bundle-build-version... 0, default
+checking for version string... 24-internal-adhoc.dente.jdk
+configure: error: The path of BOOT_JDK_ARG, which resolves as "/path/to/jdk23", could not be imported.
+configure: loading site script /etc/config.site
+configure: Configuration created at Sat Nov 30 18:13:37 CST 2024.
+checking for basename... /usr/bin/basename
+checking for dirname... /usr/bin/dirname
+checking for file... /usr/bin/file
+checking for ldd... /usr/bin/ldd
+checking for echo... echo [builtin]
+checking for tr... /usr/bin/tr
+checking for uname... /usr/bin/uname
+checking for wc... /usr/bin/wc
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for locale... /usr/bin/locale
+checking for cygpath... /usr/bin/cygpath
+checking for cmd.exe... /c/Windows/System32/cmd.exe
+checking build system type... x86_64-pc-msys
+checking host system type... x86_64-pc-msys
+checking target system type... x86_64-pc-msys
+checking openjdk-build os-cpu... windows-x86_64
+checking openjdk-target os-cpu... windows-x86_64
+checking compilation type... native
+checking Windows environment type... msys2
+checking msys2 drive prefix... ''
+checking msys2 root directory as Windows path... 'C:\msys64'
+checking msys2 temp directory... /tmp
+checking msys2 release... 3.5.4-0bc1222b.x86_64
+checking msys2 version... 2024-11-23 10:59 UTC
+checking Windows version... 10.0.22631.4460
+checking what kind of 'find' is first on the PATH... unix style
+checking for top-level directory... /c/users/dente/desktop/jdk_program_analysis/jdk
+checking for bash... /usr/bin/bash
+checking for cat... /usr/bin/cat
+checking for chmod... /usr/bin/chmod
+checking for cp... /usr/bin/cp
+checking for cut... /usr/bin/cut
+checking for date... /usr/bin/date
+checking for gdiff... [not found]
+checking for diff... /usr/bin/diff
+checking for expr... /usr/bin/expr
+checking for find... /usr/bin/find
+checking for gunzip... /usr/bin/gunzip
+checking for pigz... [not found]
+checking for gzip... /usr/bin/gzip
+checking for head... /usr/bin/head
+checking for ln... /usr/bin/ln
+checking for ls... /usr/bin/ls
+checking for gmkdir... [not found]
+checking for mkdir... /usr/bin/mkdir
+checking for mktemp... /usr/bin/mktemp
+checking for mv... /usr/bin/mv
+checking for gawk... /usr/bin/gawk
+checking for printf... printf [builtin]
+checking for rm... /usr/bin/rm
+checking for rmdir... /usr/bin/rmdir
+checking for sh... /usr/bin/sh
+checking for sort... /usr/bin/sort
+checking for tail... /usr/bin/tail
+checking for gtar... [not found]
+checking for tar... /usr/bin/tar
+checking for tee... /usr/bin/tee
+checking for touch... /usr/bin/touch
+checking for xargs... /usr/bin/xargs
+checking for fgrep... /usr/bin/grep -F
+checking for cmake... [not found]
+checking for df... /usr/bin/df
+checking for git... /usr/bin/git
+checking for nice... /usr/bin/nice
+checking for greadlink... [not found]
+checking for readlink... /usr/bin/readlink
+checking for whoami... /usr/bin/whoami
+checking for lsb_release... [not found]
+checking for cmp... /usr/bin/cmp
+checking for uniq... /usr/bin/uniq
+checking for build environment type... dev, default (calculated from 'auto')
+checking if custom source is suppressed (openjdk-only)... disabled, default
+checking for --enable-debug... disabled, default
+checking which debug level to use... release
+checking which variants of the JVM to build... server
+checking if absolute paths should be allowed in the build output... no, release build
+checking for toolchain path... 
+checking for sysroot... 
+checking for extra path... 
+checking where to store configuration... in default location
+checking what configuration name to use... windows-x86_64-server-release
+checking for zypper... [not found]
+checking for apt-get... [not found]
+checking for yum... [not found]
+checking for brew... [not found]
+checking for port... [not found]
+checking for pkgutil... [not found]
+checking for pkgadd... [not found]
+checking for pacman... /usr/bin/pacman
+checking for pandoc... [not found]
+checking for gmake... [not found]
+checking for make... /usr/bin/make
+configure: Testing potential make at /usr/bin/make, found using make in PATH
+configure: Using GNU make at /usr/bin/make (version: GNU Make 4.4.1)
+checking if make --output-sync is supported... yes
+checking for make --output-sync value... none, default
+checking if find supports -delete... yes
+checking what type of tar was found... gnu
+checking that grep (/usr/bin/grep) -Fx handles empty lines in the pattern list correctly... yes
+checking for unzip... /usr/bin/unzip
+checking for zip... /usr/bin/zip
+checking for greadelf... [not found]
+checking for readelf... /usr/bin/readelf
+checking for dot... [not found]
+checking for stat... /usr/bin/stat
+checking for time... time [builtin]
+checking for flock... /usr/bin/flock
+checking for dtrace... [not found]
+checking for gpatch... [not found]
+checking for patch... [not found]
+checking if date is a GNU compatible version... yes
+checking bash version... 5.2.37
+checking if bash supports pipefail... yes
+checking if bash supports errexit (-e)... yes
+checking for pkg-config... no
+checking for default LOG value... 
+checking for JMOD compression type... zip-6, default
+checking whether or not a JDK suitable for linking from the run-time image should be produced... disabled, default
+checking if packaged modules are kept... enabled, default
+checking for --with-build-user... dente, default
+checking for --with-jdk-rc-name... OpenJDK Platform, default
+checking for --with-vendor-name... N/A, default
+checking for --with-jdk-rc-company-name... N/A, default
+checking for --with-vendor-url... https://openjdk.org/, default
+checking for --with-vendor-bug-url... https://bugreport.java.com/bugreport/, default
+checking for --with-vendor-vm-bug-url... https://bugreport.java.com/bugreport/crash.jsp, default
+checking for --with-version-string... <none>, default
+checking for --with-version-feature... 24, default
+checking for --with-version-date... 2025-03-18, default
+checking for --with-vendor-version-string... <disabled>, default
+checking for --with-macosx-bundle-name-base... OpenJDK, default
+checking for --with-macosx-bundle-id-base... net.java.openjdk-internal, default
+checking for --with-macosx-bundle-build-version... 0, default
+checking for version string... 24-internal-adhoc.dente.jdk
+checking for javac... [not found]
+checking for java... [not found]
+configure: Found potential Boot JDK using well-known locations (in /c/progra~1/java/jdk-23)
+checking for Boot JDK... /c/progra~1/java/jdk-23
+checking Boot JDK version... java version "23.0.1" 2024-10-15 Java(TM) SE Runtime Environment (build 23.0.1+11-39) Java HotSpot(TM) 64-Bit Server VM (build 23.0.1+11-39, mixed mode, sharing)
+checking for java [Boot JDK]... $BOOT_JDK/bin/java
+checking for javac [Boot JDK]... $BOOT_JDK/bin/javac
+checking for javadoc [Boot JDK]... $BOOT_JDK/bin/javadoc
+checking for jar [Boot JDK]... $BOOT_JDK/bin/jar
+checking if Boot JDK jar supports --date=TIMESTAMP... true
+checking if Boot JDK is 32 or 64 bits... 64
+checking for local Boot JDK Class Data Sharing (CDS)... yes, created
+checking for Build JDK... yes, will use output dir
+checking for docs-reference JDK... no, using interim javadoc for the docs-reference targets
+checking what source date to use... 1733012025, from 'current' (default)
+checking if we should build headless-only (no GUI)... disabled, default
+checking if linker should clean out unused code (linktime-gc)... disabled, default
+checking for graphviz dot... no, cannot generate full docs
+checking for pandoc... no, cannot generate full docs
+checking for --enable-full-docs... disabled, from default 'auto'
+checking for cacerts file... default
+checking for cacerts source... default
+checking for --enable-unlimited-crypto... enabled, default
+checking for jni library path... default
+configure: Using default toolchain microsoft (Microsoft Visual Studio)
+configure: Found Visual Studio installation at /c/progra~1/mib055~1/2022/Community using well-known name
+configure: Found Microsoft Visual Studio 2022
+configure: Trying to extract Visual Studio environment variables for x86_64
+configure: using /c/progra~1/mib055~1/2022/Community/vc/auxiliary/build/vcvars64.bat 
+The system cannot find the file specified.
+configure: Setting extracted environment variables for x86_64
+fixpath: warning: Path '/usr/local/bin' does not exist
+fixpath: warning: Path '/opt/bin' does not exist
+fixpath: warning: Path '/usr/local/bin' does not exist
+fixpath: warning: Path '/opt/bin' does not exist
+checking that Visual Studio variables have been correctly extracted... ok
+checking for cl... $FIXPATH /c/progra~1/mib055~1/2022/commun~1/vc/tools/msvc/1442~1.344/bin/hostx64/x64/cl.exe
+checking resolved symbolic links for CC... no symlink
+configure: Using microsoft C compiler version 19.42.34435 [Microsoft (R) C/C++ Optimizing Compiler Version 19.42.34435 for x64]
+checking whether the C compiler works... no
+configure: error: in '/c/Users/dente/Desktop/JDK_Program_Analysis/jdk':
+configure: error: C compiler cannot create executables
+See 'config.log' for more details
+configure: loading site script /etc/config.site
+configure: Configuration created at Sat Nov 30 18:17:56 CST 2024.
+checking for basename... /usr/bin/basename
+checking for dirname... /usr/bin/dirname
+checking for file... /usr/bin/file
+checking for ldd... /usr/bin/ldd
+checking for echo... echo [builtin]
+checking for tr... /usr/bin/tr
+checking for uname... /usr/bin/uname
+checking for wc... /usr/bin/wc
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for locale... /usr/bin/locale
+checking for cygpath... /usr/bin/cygpath
+checking for cmd.exe... /c/Windows/System32/cmd.exe
+checking build system type... x86_64-pc-msys
+checking host system type... x86_64-pc-msys
+checking target system type... x86_64-pc-msys
+checking openjdk-build os-cpu... windows-x86_64
+checking openjdk-target os-cpu... windows-x86_64
+checking compilation type... native
+checking Windows environment type... msys2
+checking msys2 drive prefix... ''
+checking msys2 root directory as Windows path... 'C:\msys64'
+checking msys2 temp directory... /tmp
+checking msys2 release... 3.5.4-0bc1222b.x86_64
+checking msys2 version... 2024-11-23 10:59 UTC
+checking Windows version... 10.0.22631.4460
+checking what kind of 'find' is first on the PATH... unix style
+checking for top-level directory... /c/users/dente/desktop/jdk_program_analysis/jdk
+checking for bash... /usr/bin/bash
+checking for cat... /usr/bin/cat
+checking for chmod... /usr/bin/chmod
+checking for cp... /usr/bin/cp
+checking for cut... /usr/bin/cut
+checking for date... /usr/bin/date
+checking for gdiff... [not found]
+checking for diff... /usr/bin/diff
+checking for expr... /usr/bin/expr
+checking for find... /usr/bin/find
+checking for gunzip... /usr/bin/gunzip
+checking for pigz... [not found]
+checking for gzip... /usr/bin/gzip
+checking for head... /usr/bin/head
+checking for ln... /usr/bin/ln
+checking for ls... /usr/bin/ls
+checking for gmkdir... [not found]
+checking for mkdir... /usr/bin/mkdir
+checking for mktemp... /usr/bin/mktemp
+checking for mv... /usr/bin/mv
+checking for gawk... /usr/bin/gawk
+checking for printf... printf [builtin]
+checking for rm... /usr/bin/rm
+checking for rmdir... /usr/bin/rmdir
+checking for sh... /usr/bin/sh
+checking for sort... /usr/bin/sort
+checking for tail... /usr/bin/tail
+checking for gtar... [not found]
+checking for tar... /usr/bin/tar
+checking for tee... /usr/bin/tee
+checking for touch... /usr/bin/touch
+checking for xargs... /usr/bin/xargs
+checking for fgrep... /usr/bin/grep -F
+checking for cmake... [not found]
+checking for df... /usr/bin/df
+checking for git... /usr/bin/git
+checking for nice... /usr/bin/nice
+checking for greadlink... [not found]
+checking for readlink... /usr/bin/readlink
+checking for whoami... /usr/bin/whoami
+checking for lsb_release... [not found]
+checking for cmp... /usr/bin/cmp
+checking for uniq... /usr/bin/uniq
+checking for build environment type... dev, default (calculated from 'auto')
+checking if custom source is suppressed (openjdk-only)... disabled, default
+checking for --enable-debug... disabled, default
+checking which debug level to use... release
+checking which variants of the JVM to build... server
+checking if absolute paths should be allowed in the build output... no, release build
+checking for toolchain path... 
+checking for sysroot... 
+checking for extra path... 
+checking where to store configuration... in default location
+checking what configuration name to use... windows-x86_64-server-release
+checking for zypper... [not found]
+checking for apt-get... [not found]
+checking for yum... [not found]
+checking for brew... [not found]
+checking for port... [not found]
+checking for pkgutil... [not found]
+checking for pkgadd... [not found]
+checking for pacman... /usr/bin/pacman
+checking for pandoc... [not found]
+checking for gmake... [not found]
+checking for make... /usr/bin/make
+configure: Testing potential make at /usr/bin/make, found using make in PATH
+configure: Using GNU make at /usr/bin/make (version: GNU Make 4.4.1)
+checking if make --output-sync is supported... yes
+checking for make --output-sync value... none, default
+checking if find supports -delete... yes
+checking what type of tar was found... gnu
+checking that grep (/usr/bin/grep) -Fx handles empty lines in the pattern list correctly... yes
+checking for unzip... /usr/bin/unzip
+checking for zip... /usr/bin/zip
+checking for greadelf... [not found]
+checking for readelf... /usr/bin/readelf
+checking for dot... [not found]
+checking for stat... /usr/bin/stat
+checking for time... time [builtin]
+checking for flock... /usr/bin/flock
+checking for dtrace... [not found]
+checking for gpatch... [not found]
+checking for patch... [not found]
+checking if date is a GNU compatible version... yes
+checking bash version... 5.2.37
+checking if bash supports pipefail... yes
+checking if bash supports errexit (-e)... yes
+checking for pkg-config... no
+checking for default LOG value... 
+checking for JMOD compression type... zip-6, default
+checking whether or not a JDK suitable for linking from the run-time image should be produced... disabled, default
+checking if packaged modules are kept... enabled, default
+checking for --with-build-user... dente, default
+checking for --with-jdk-rc-name... OpenJDK Platform, default
+checking for --with-vendor-name... N/A, default
+checking for --with-jdk-rc-company-name... N/A, default
+checking for --with-vendor-url... https://openjdk.org/, default
+checking for --with-vendor-bug-url... https://bugreport.java.com/bugreport/, default
+checking for --with-vendor-vm-bug-url... https://bugreport.java.com/bugreport/crash.jsp, default
+checking for --with-version-string... <none>, default
+checking for --with-version-feature... 24, default
+checking for --with-version-date... 2025-03-18, default
+checking for --with-vendor-version-string... <disabled>, default
+checking for --with-macosx-bundle-name-base... OpenJDK, default
+checking for --with-macosx-bundle-id-base... net.java.openjdk-internal, default
+checking for --with-macosx-bundle-build-version... 0, default
+checking for version string... 24-internal-adhoc.dente.jdk
+configure: error: The path of BOOT_JDK_ARG, which resolves as "/path/to/jdk23", could not be imported.
+configure: loading site script /etc/config.site
+configure: Configuration created at Sat Nov 30 18:18:24 CST 2024.
+checking for basename... /usr/bin/basename
+checking for dirname... /usr/bin/dirname
+checking for file... /usr/bin/file
+checking for ldd... /usr/bin/ldd
+checking for echo... echo [builtin]
+checking for tr... /usr/bin/tr
+checking for uname... /usr/bin/uname
+checking for wc... /usr/bin/wc
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for locale... /usr/bin/locale
+checking for cygpath... /usr/bin/cygpath
+checking for cmd.exe... /c/Windows/System32/cmd.exe
+checking build system type... x86_64-pc-msys
+checking host system type... x86_64-pc-msys
+checking target system type... x86_64-pc-msys
+checking openjdk-build os-cpu... windows-x86_64
+checking openjdk-target os-cpu... windows-x86_64
+checking compilation type... native
+checking Windows environment type... msys2
+checking msys2 drive prefix... ''
+checking msys2 root directory as Windows path... 'C:\msys64'
+checking msys2 temp directory... /tmp
+checking msys2 release... 3.5.4-0bc1222b.x86_64
+checking msys2 version... 2024-11-23 10:59 UTC
+checking Windows version... 10.0.22631.4460
+checking what kind of 'find' is first on the PATH... unix style
+checking for top-level directory... /c/users/dente/desktop/jdk_program_analysis/jdk
+checking for bash... /usr/bin/bash
+checking for cat... /usr/bin/cat
+checking for chmod... /usr/bin/chmod
+checking for cp... /usr/bin/cp
+checking for cut... /usr/bin/cut
+checking for date... /usr/bin/date
+checking for gdiff... [not found]
+checking for diff... /usr/bin/diff
+checking for expr... /usr/bin/expr
+checking for find... /usr/bin/find
+checking for gunzip... /usr/bin/gunzip
+checking for pigz... [not found]
+checking for gzip... /usr/bin/gzip
+checking for head... /usr/bin/head
+checking for ln... /usr/bin/ln
+checking for ls... /usr/bin/ls
+checking for gmkdir... [not found]
+checking for mkdir... /usr/bin/mkdir
+checking for mktemp... /usr/bin/mktemp
+checking for mv... /usr/bin/mv
+checking for gawk... /usr/bin/gawk
+checking for printf... printf [builtin]
+checking for rm... /usr/bin/rm
+checking for rmdir... /usr/bin/rmdir
+checking for sh... /usr/bin/sh
+checking for sort... /usr/bin/sort
+checking for tail... /usr/bin/tail
+checking for gtar... [not found]
+checking for tar... /usr/bin/tar
+checking for tee... /usr/bin/tee
+checking for touch... /usr/bin/touch
+checking for xargs... /usr/bin/xargs
+checking for fgrep... /usr/bin/grep -F
+checking for cmake... [not found]
+checking for df... /usr/bin/df
+checking for git... /usr/bin/git
+checking for nice... /usr/bin/nice
+checking for greadlink... [not found]
+checking for readlink... /usr/bin/readlink
+checking for whoami... /usr/bin/whoami
+checking for lsb_release... [not found]
+checking for cmp... /usr/bin/cmp
+checking for uniq... /usr/bin/uniq
+checking for build environment type... dev, default (calculated from 'auto')
+checking if custom source is suppressed (openjdk-only)... disabled, default
+checking for --enable-debug... disabled, default
+checking which debug level to use... release
+checking which variants of the JVM to build... server
+checking if absolute paths should be allowed in the build output... no, release build
+checking for toolchain path... 
+checking for sysroot... 
+checking for extra path... 
+checking where to store configuration... in default location
+checking what configuration name to use... windows-x86_64-server-release
+checking for zypper... [not found]
+checking for apt-get... [not found]
+checking for yum... [not found]
+checking for brew... [not found]
+checking for port... [not found]
+checking for pkgutil... [not found]
+checking for pkgadd... [not found]
+checking for pacman... /usr/bin/pacman
+checking for pandoc... [not found]
+checking for gmake... [not found]
+checking for make... /usr/bin/make
+configure: Testing potential make at /usr/bin/make, found using make in PATH
+configure: Using GNU make at /usr/bin/make (version: GNU Make 4.4.1)
+checking if make --output-sync is supported... yes
+checking for make --output-sync value... none, default
+checking if find supports -delete... yes
+checking what type of tar was found... gnu
+checking that grep (/usr/bin/grep) -Fx handles empty lines in the pattern list correctly... yes
+checking for unzip... /usr/bin/unzip
+checking for zip... /usr/bin/zip
+checking for greadelf... [not found]
+checking for readelf... /usr/bin/readelf
+checking for dot... [not found]
+checking for stat... /usr/bin/stat
+checking for time... time [builtin]
+checking for flock... /usr/bin/flock
+checking for dtrace... [not found]
+checking for gpatch... [not found]
+checking for patch... [not found]
+checking if date is a GNU compatible version... yes
+checking bash version... 5.2.37
+checking if bash supports pipefail... yes
+checking if bash supports errexit (-e)... yes
+checking for pkg-config... no
+checking for default LOG value... 
+checking for JMOD compression type... zip-6, default
+checking whether or not a JDK suitable for linking from the run-time image should be produced... disabled, default
+checking if packaged modules are kept... enabled, default
+checking for --with-build-user... dente, default
+checking for --with-jdk-rc-name... OpenJDK Platform, default
+checking for --with-vendor-name... N/A, default
+checking for --with-jdk-rc-company-name... N/A, default
+checking for --with-vendor-url... https://openjdk.org/, default
+checking for --with-vendor-bug-url... https://bugreport.java.com/bugreport/, default
+checking for --with-vendor-vm-bug-url... https://bugreport.java.com/bugreport/crash.jsp, default
+checking for --with-version-string... <none>, default
+checking for --with-version-feature... 24, default
+checking for --with-version-date... 2025-03-18, default
+checking for --with-vendor-version-string... <disabled>, default
+checking for --with-macosx-bundle-name-base... OpenJDK, default
+checking for --with-macosx-bundle-id-base... net.java.openjdk-internal, default
+checking for --with-macosx-bundle-build-version... 0, default
+checking for version string... 24-internal-adhoc.dente.jdk
+configure: error: The path of BOOT_JDK_ARG, which resolves as "/path/to/jdk23", could not be imported.
+configure: loading site script /etc/config.site
+configure: Configuration created at Sat Nov 30 18:18:41 CST 2024.
+checking for basename... /usr/bin/basename
+checking for dirname... /usr/bin/dirname
+checking for file... /usr/bin/file
+checking for ldd... /usr/bin/ldd
+checking for echo... echo [builtin]
+checking for tr... /usr/bin/tr
+checking for uname... /usr/bin/uname
+checking for wc... /usr/bin/wc
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for locale... /usr/bin/locale
+checking for cygpath... /usr/bin/cygpath
+checking for cmd.exe... /c/Windows/System32/cmd.exe
+checking build system type... x86_64-pc-msys
+checking host system type... x86_64-pc-msys
+checking target system type... x86_64-pc-msys
+checking openjdk-build os-cpu... windows-x86_64
+checking openjdk-target os-cpu... windows-x86_64
+checking compilation type... native
+checking Windows environment type... msys2
+checking msys2 drive prefix... ''
+checking msys2 root directory as Windows path... 'C:\msys64'
+checking msys2 temp directory... /tmp
+checking msys2 release... 3.5.4-0bc1222b.x86_64
+checking msys2 version... 2024-11-23 10:59 UTC
+checking Windows version... 10.0.22631.4460
+checking what kind of 'find' is first on the PATH... unix style
+checking for top-level directory... /c/users/dente/desktop/jdk_program_analysis/jdk
+checking for bash... /usr/bin/bash
+checking for cat... /usr/bin/cat
+checking for chmod... /usr/bin/chmod
+checking for cp... /usr/bin/cp
+checking for cut... /usr/bin/cut
+checking for date... /usr/bin/date
+checking for gdiff... [not found]
+checking for diff... /usr/bin/diff
+checking for expr... /usr/bin/expr
+checking for find... /usr/bin/find
+checking for gunzip... /usr/bin/gunzip
+checking for pigz... [not found]
+checking for gzip... /usr/bin/gzip
+checking for head... /usr/bin/head
+checking for ln... /usr/bin/ln
+checking for ls... /usr/bin/ls
+checking for gmkdir... [not found]
+checking for mkdir... /usr/bin/mkdir
+checking for mktemp... /usr/bin/mktemp
+checking for mv... /usr/bin/mv
+checking for gawk... /usr/bin/gawk
+checking for printf... printf [builtin]
+checking for rm... /usr/bin/rm
+checking for rmdir... /usr/bin/rmdir
+checking for sh... /usr/bin/sh
+checking for sort... /usr/bin/sort
+checking for tail... /usr/bin/tail
+checking for gtar... [not found]
+checking for tar... /usr/bin/tar
+checking for tee... /usr/bin/tee
+checking for touch... /usr/bin/touch
+checking for xargs... /usr/bin/xargs
+checking for fgrep... /usr/bin/grep -F
+checking for cmake... [not found]
+checking for df... /usr/bin/df
+checking for git... /usr/bin/git
+checking for nice... /usr/bin/nice
+checking for greadlink... [not found]
+checking for readlink... /usr/bin/readlink
+checking for whoami... /usr/bin/whoami
+checking for lsb_release... [not found]
+checking for cmp... /usr/bin/cmp
+checking for uniq... /usr/bin/uniq
+checking for build environment type... dev, default (calculated from 'auto')
+checking if custom source is suppressed (openjdk-only)... disabled, default
+checking for --enable-debug... disabled, default
+checking which debug level to use... release
+checking which variants of the JVM to build... server
+checking if absolute paths should be allowed in the build output... no, release build
+checking for toolchain path... 
+checking for sysroot... 
+checking for extra path... 
+checking where to store configuration... in default location
+checking what configuration name to use... windows-x86_64-server-release
+checking for zypper... [not found]
+checking for apt-get... [not found]
+checking for yum... [not found]
+checking for brew... [not found]
+checking for port... [not found]
+checking for pkgutil... [not found]
+checking for pkgadd... [not found]
+checking for pacman... /usr/bin/pacman
+checking for pandoc... [not found]
+checking for gmake... [not found]
+checking for make... /usr/bin/make
+configure: Testing potential make at /usr/bin/make, found using make in PATH
+configure: Using GNU make at /usr/bin/make (version: GNU Make 4.4.1)
+checking if make --output-sync is supported... yes
+checking for make --output-sync value... none, default
+checking if find supports -delete... yes
+checking what type of tar was found... gnu
+checking that grep (/usr/bin/grep) -Fx handles empty lines in the pattern list correctly... yes
+checking for unzip... /usr/bin/unzip
+checking for zip... /usr/bin/zip
+checking for greadelf... [not found]
+checking for readelf... /usr/bin/readelf
+checking for dot... [not found]
+checking for stat... /usr/bin/stat
+checking for time... time [builtin]
+checking for flock... /usr/bin/flock
+checking for dtrace... [not found]
+checking for gpatch... [not found]
+checking for patch... [not found]
+checking if date is a GNU compatible version... yes
+checking bash version... 5.2.37
+checking if bash supports pipefail... yes
+checking if bash supports errexit (-e)... yes
+checking for pkg-config... no
+checking for default LOG value... 
+checking for JMOD compression type... zip-6, default
+checking whether or not a JDK suitable for linking from the run-time image should be produced... disabled, default
+checking if packaged modules are kept... enabled, default
+checking for --with-build-user... dente, default
+checking for --with-jdk-rc-name... OpenJDK Platform, default
+checking for --with-vendor-name... N/A, default
+checking for --with-jdk-rc-company-name... N/A, default
+checking for --with-vendor-url... https://openjdk.org/, default
+checking for --with-vendor-bug-url... https://bugreport.java.com/bugreport/, default
+checking for --with-vendor-vm-bug-url... https://bugreport.java.com/bugreport/crash.jsp, default
+checking for --with-version-string... <none>, default
+checking for --with-version-feature... 24, default
+checking for --with-version-date... 2025-03-18, default
+checking for --with-vendor-version-string... <disabled>, default
+checking for --with-macosx-bundle-name-base... OpenJDK, default
+checking for --with-macosx-bundle-id-base... net.java.openjdk-internal, default
+checking for --with-macosx-bundle-build-version... 0, default
+checking for version string... 24-internal-adhoc.dente.jdk
+configure: error: The path of BOOT_JDK_ARG, which resolves as "/path/to/jdk23", could not be imported.
+configure: WARNING: you should use --build, --host, --target
+configure: WARNING: invalid host type: Files/Microsoft
+configure: WARNING: you should use --build, --host, --target
+configure: WARNING: you should use --build, --host, --target
+configure: loading site script /etc/config.site
+configure: Configuration created at Sat Nov 30 18:43:49 CST 2024.
+checking for basename... /usr/bin/basename
+checking for dirname... /usr/bin/dirname
+checking for file... /usr/bin/file
+checking for ldd... /usr/bin/ldd
+checking for echo... echo [builtin]
+checking for tr... /usr/bin/tr
+checking for uname... /usr/bin/uname
+checking for wc... /usr/bin/wc
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for locale... /usr/bin/locale
+checking for cygpath... /usr/bin/cygpath
+checking for cmd.exe... /c/Windows/System32/cmd.exe
+checking build system type... Invalid configuration 'Files/Microsoft': machine 'Files/Microsoft-unknown' not recognized
+configure: error: /usr/bin/bash /c/Users/dente/Desktop/JDK_Program_Analysis/jdk/make/autoconf/build-aux/config.sub Files/Microsoft failed
+configure: WARNING: you should use --build, --host, --target
+configure: WARNING: invalid host type: Files/Microsoft
+configure: WARNING: you should use --build, --host, --target
+configure: WARNING: you should use --build, --host, --target
+configure: loading site script /etc/config.site
+configure: Configuration created at Sat Nov 30 18:43:54 CST 2024.
+checking for basename... /usr/bin/basename
+checking for dirname... /usr/bin/dirname
+checking for file... /usr/bin/file
+checking for ldd... /usr/bin/ldd
+checking for echo... echo [builtin]
+checking for tr... /usr/bin/tr
+checking for uname... /usr/bin/uname
+checking for wc... /usr/bin/wc
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for locale... /usr/bin/locale
+checking for cygpath... /usr/bin/cygpath
+checking for cmd.exe... /c/Windows/System32/cmd.exe
+checking build system type... Invalid configuration 'Files/Microsoft': machine 'Files/Microsoft-unknown' not recognized
+configure: error: /usr/bin/bash /c/Users/dente/Desktop/JDK_Program_Analysis/jdk/make/autoconf/build-aux/config.sub Files/Microsoft failed
+configure: WARNING: you should use --build, --host, --target
+configure: WARNING: invalid host type: Files/Microsoft
+configure: WARNING: you should use --build, --host, --target
+configure: WARNING: you should use --build, --host, --target
+configure: loading site script /etc/config.site
+configure: Configuration created at Sat Nov 30 18:46:02 CST 2024.
+checking for basename... /usr/bin/basename
+checking for dirname... /usr/bin/dirname
+checking for file... /usr/bin/file
+checking for ldd... /usr/bin/ldd
+checking for echo... echo [builtin]
+checking for tr... /usr/bin/tr
+checking for uname... /usr/bin/uname
+checking for wc... /usr/bin/wc
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for locale... /usr/bin/locale
+checking for cygpath... /usr/bin/cygpath
+checking for cmd.exe... /c/Windows/System32/cmd.exe
+checking build system type... Invalid configuration 'Files/Microsoft': machine 'Files/Microsoft-unknown' not recognized
+configure: error: /usr/bin/bash /c/Users/dente/Desktop/JDK_Program_Analysis/jdk/make/autoconf/build-aux/config.sub Files/Microsoft failed
+configure: WARNING: you should use --build, --host, --target
+configure: WARNING: invalid host type: Files/Microsoft
+configure: WARNING: you should use --build, --host, --target
+configure: WARNING: you should use --build, --host, --target
+configure: loading site script /etc/config.site
+configure: Configuration created at Sat Nov 30 18:49:42 CST 2024.
+checking for basename... /usr/bin/basename
+checking for dirname... /usr/bin/dirname
+checking for file... /usr/bin/file
+checking for ldd... /usr/bin/ldd
+checking for echo... echo [builtin]
+checking for tr... /usr/bin/tr
+checking for uname... /usr/bin/uname
+checking for wc... /usr/bin/wc
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for locale... /usr/bin/locale
+checking for cygpath... /usr/bin/cygpath
+checking for cmd.exe... /c/Windows/System32/cmd.exe
+checking build system type... Invalid configuration 'Files/Microsoft': machine 'Files/Microsoft-unknown' not recognized
+configure: error: /usr/bin/bash /c/Users/dente/Desktop/JDK_Program_Analysis/jdk/make/autoconf/build-aux/config.sub Files/Microsoft failed
+configure: loading site script /etc/config.site
+configure: Configuration created at Sat Nov 30 18:50:00 CST 2024.
+checking for basename... /usr/bin/basename
+checking for dirname... /usr/bin/dirname
+checking for file... /usr/bin/file
+checking for ldd... /usr/bin/ldd
+checking for echo... echo [builtin]
+checking for tr... /usr/bin/tr
+checking for uname... /usr/bin/uname
+checking for wc... /usr/bin/wc
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for locale... /usr/bin/locale
+checking for cygpath... /usr/bin/cygpath
+checking for cmd.exe... /c/Windows/System32/cmd.exe
+checking build system type... x86_64-pc-msys
+checking host system type... x86_64-pc-msys
+checking target system type... x86_64-pc-msys
+checking openjdk-build os-cpu... windows-x86_64
+checking openjdk-target os-cpu... windows-x86_64
+checking compilation type... native
+checking Windows environment type... msys2
+checking msys2 drive prefix... ''
+checking msys2 root directory as Windows path... 'C:\msys64'
+checking msys2 temp directory... /tmp
+checking msys2 release... 3.5.4-0bc1222b.x86_64
+checking msys2 version... 2024-11-23 10:59 UTC
+checking Windows version... 10.0.22631.4460
+checking what kind of 'find' is first on the PATH... unix style
+checking for top-level directory... /c/users/dente/desktop/jdk_program_analysis/jdk
+checking for bash... /usr/bin/bash
+checking for cat... /usr/bin/cat
+checking for chmod... /usr/bin/chmod
+checking for cp... /usr/bin/cp
+checking for cut... /usr/bin/cut
+checking for date... /usr/bin/date
+checking for gdiff... [not found]
+checking for diff... /usr/bin/diff
+checking for expr... /usr/bin/expr
+checking for find... /usr/bin/find
+checking for gunzip... /usr/bin/gunzip
+checking for pigz... [not found]
+checking for gzip... /usr/bin/gzip
+checking for head... /usr/bin/head
+checking for ln... /usr/bin/ln
+checking for ls... /usr/bin/ls
+checking for gmkdir... [not found]
+checking for mkdir... /usr/bin/mkdir
+checking for mktemp... /usr/bin/mktemp
+checking for mv... /usr/bin/mv
+checking for gawk... /usr/bin/gawk
+checking for printf... printf [builtin]
+checking for rm... /usr/bin/rm
+checking for rmdir... /usr/bin/rmdir
+checking for sh... /usr/bin/sh
+checking for sort... /usr/bin/sort
+checking for tail... /usr/bin/tail
+checking for gtar... [not found]
+checking for tar... /usr/bin/tar
+checking for tee... /usr/bin/tee
+checking for touch... /usr/bin/touch
+checking for xargs... /usr/bin/xargs
+checking for fgrep... /usr/bin/grep -F
+checking for cmake... [not found]
+checking for df... /usr/bin/df
+checking for git... /usr/bin/git
+checking for nice... /usr/bin/nice
+checking for greadlink... [not found]
+checking for readlink... /usr/bin/readlink
+checking for whoami... /usr/bin/whoami
+checking for lsb_release... [not found]
+checking for cmp... /usr/bin/cmp
+checking for uniq... /usr/bin/uniq
+checking for build environment type... dev, default (calculated from 'auto')
+checking if custom source is suppressed (openjdk-only)... disabled, default
+checking for --enable-debug... disabled, default
+checking which debug level to use... release
+checking which variants of the JVM to build... server
+checking if absolute paths should be allowed in the build output... no, release build
+checking for toolchain path... 
+checking for sysroot... 
+checking for extra path... 
+checking where to store configuration... in default location
+checking what configuration name to use... windows-x86_64-server-release
+checking for zypper... [not found]
+checking for apt-get... [not found]
+checking for yum... [not found]
+checking for brew... [not found]
+checking for port... [not found]
+checking for pkgutil... [not found]
+checking for pkgadd... [not found]
+checking for pacman... /usr/bin/pacman
+checking for pandoc... [not found]
+checking for gmake... [not found]
+checking for make... /usr/bin/make
+configure: Testing potential make at /usr/bin/make, found using make in PATH
+configure: Using GNU make at /usr/bin/make (version: GNU Make 4.4.1)
+checking if make --output-sync is supported... yes
+checking for make --output-sync value... none, default
+checking if find supports -delete... yes
+checking what type of tar was found... gnu
+checking that grep (/usr/bin/grep) -Fx handles empty lines in the pattern list correctly... yes
+checking for unzip... /usr/bin/unzip
+checking for zip... /usr/bin/zip
+checking for greadelf... [not found]
+checking for readelf... /usr/bin/readelf
+checking for dot... [not found]
+checking for stat... /usr/bin/stat
+checking for time... time [builtin]
+checking for flock... /usr/bin/flock
+checking for dtrace... [not found]
+checking for gpatch... [not found]
+checking for patch... [not found]
+checking if date is a GNU compatible version... yes
+checking bash version... 5.2.37
+checking if bash supports pipefail... yes
+checking if bash supports errexit (-e)... yes
+checking for pkg-config... no
+checking for default LOG value... 
+checking for JMOD compression type... zip-6, default
+checking whether or not a JDK suitable for linking from the run-time image should be produced... disabled, default
+checking if packaged modules are kept... enabled, default
+checking for --with-build-user... dente, default
+checking for --with-jdk-rc-name... OpenJDK Platform, default
+checking for --with-vendor-name... N/A, default
+checking for --with-jdk-rc-company-name... N/A, default
+checking for --with-vendor-url... https://openjdk.org/, default
+checking for --with-vendor-bug-url... https://bugreport.java.com/bugreport/, default
+checking for --with-vendor-vm-bug-url... https://bugreport.java.com/bugreport/crash.jsp, default
+checking for --with-version-string... <none>, default
+checking for --with-version-feature... 24, default
+checking for --with-version-date... 2025-03-18, default
+checking for --with-vendor-version-string... <disabled>, default
+checking for --with-macosx-bundle-name-base... OpenJDK, default
+checking for --with-macosx-bundle-id-base... net.java.openjdk-internal, default
+checking for --with-macosx-bundle-build-version... 0, default
+checking for version string... 24-internal-adhoc.dente.jdk
+configure: error: The path of BOOT_JDK_ARG, which resolves as "/c:/Progra~1/Java/jdk-23", could not be imported.
+configure: WARNING: you should use --build, --host, --target
+configure: WARNING: invalid host type: Files/Java/jdk-23
+configure: loading site script /etc/config.site
+configure: Configuration created at Sat Nov 30 18:50:20 CST 2024.
+checking for basename... /usr/bin/basename
+checking for dirname... /usr/bin/dirname
+checking for file... /usr/bin/file
+checking for ldd... /usr/bin/ldd
+checking for echo... echo [builtin]
+checking for tr... /usr/bin/tr
+checking for uname... /usr/bin/uname
+checking for wc... /usr/bin/wc
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for locale... /usr/bin/locale
+checking for cygpath... /usr/bin/cygpath
+checking for cmd.exe... /c/Windows/System32/cmd.exe
+checking build system type... Invalid configuration 'Files/Java/jdk-23': machine 'Files/Java/jdk-unknown' not recognized
+configure: error: /usr/bin/bash /c/Users/dente/Desktop/JDK_Program_Analysis/jdk/make/autoconf/build-aux/config.sub Files/Java/jdk-23 failed
+configure: loading site script /etc/config.site
+configure: Configuration created at Sat Nov 30 18:51:37 CST 2024.
+checking for basename... /usr/bin/basename
+checking for dirname... /usr/bin/dirname
+checking for file... /usr/bin/file
+checking for ldd... /usr/bin/ldd
+checking for echo... echo [builtin]
+checking for tr... /usr/bin/tr
+checking for uname... /usr/bin/uname
+checking for wc... /usr/bin/wc
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for locale... /usr/bin/locale
+checking for cygpath... /usr/bin/cygpath
+checking for cmd.exe... /c/Windows/System32/cmd.exe
+checking build system type... x86_64-pc-msys
+checking host system type... x86_64-pc-msys
+checking target system type... x86_64-pc-msys
+checking openjdk-build os-cpu... windows-x86_64
+checking openjdk-target os-cpu... windows-x86_64
+checking compilation type... native
+checking Windows environment type... msys2
+checking msys2 drive prefix... ''
+checking msys2 root directory as Windows path... 'C:\msys64'
+checking msys2 temp directory... /tmp
+checking msys2 release... 3.5.4-0bc1222b.x86_64
+checking msys2 version... 2024-11-23 10:59 UTC
+checking Windows version... 10.0.22631.4460
+checking what kind of 'find' is first on the PATH... unix style
+checking for top-level directory... /c/users/dente/desktop/jdk_program_analysis/jdk
+checking for bash... /usr/bin/bash
+checking for cat... /usr/bin/cat
+checking for chmod... /usr/bin/chmod
+checking for cp... /usr/bin/cp
+checking for cut... /usr/bin/cut
+checking for date... /usr/bin/date
+checking for gdiff... [not found]
+checking for diff... /usr/bin/diff
+checking for expr... /usr/bin/expr
+checking for find... /usr/bin/find
+checking for gunzip... /usr/bin/gunzip
+checking for pigz... [not found]
+checking for gzip... /usr/bin/gzip
+checking for head... /usr/bin/head
+checking for ln... /usr/bin/ln
+checking for ls... /usr/bin/ls
+checking for gmkdir... [not found]
+checking for mkdir... /usr/bin/mkdir
+checking for mktemp... /usr/bin/mktemp
+checking for mv... /usr/bin/mv
+checking for gawk... /usr/bin/gawk
+checking for printf... printf [builtin]
+checking for rm... /usr/bin/rm
+checking for rmdir... /usr/bin/rmdir
+checking for sh... /usr/bin/sh
+checking for sort... /usr/bin/sort
+checking for tail... /usr/bin/tail
+checking for gtar... [not found]
+checking for tar... /usr/bin/tar
+checking for tee... /usr/bin/tee
+checking for touch... /usr/bin/touch
+checking for xargs... /usr/bin/xargs
+checking for fgrep... /usr/bin/grep -F
+checking for cmake... [not found]
+checking for df... /usr/bin/df
+checking for git... /usr/bin/git
+checking for nice... /usr/bin/nice
+checking for greadlink... [not found]
+checking for readlink... /usr/bin/readlink
+checking for whoami... /usr/bin/whoami
+checking for lsb_release... [not found]
+checking for cmp... /usr/bin/cmp
+checking for uniq... /usr/bin/uniq
+checking for build environment type... dev, default (calculated from 'auto')
+checking if custom source is suppressed (openjdk-only)... disabled, default
+checking for --enable-debug... disabled, default
+checking which debug level to use... release
+checking which variants of the JVM to build... server
+checking if absolute paths should be allowed in the build output... no, release build
+checking for toolchain path... 
+checking for sysroot... 
+checking for extra path... 
+checking where to store configuration... in default location
+checking what configuration name to use... windows-x86_64-server-release
+checking for zypper... [not found]
+checking for apt-get... [not found]
+checking for yum... [not found]
+checking for brew... [not found]
+checking for port... [not found]
+checking for pkgutil... [not found]
+checking for pkgadd... [not found]
+checking for pacman... /usr/bin/pacman
+checking for pandoc... [not found]
+checking for gmake... [not found]
+checking for make... /usr/bin/make
+configure: Testing potential make at /usr/bin/make, found using make in PATH
+configure: Using GNU make at /usr/bin/make (version: GNU Make 4.4.1)
+checking if make --output-sync is supported... yes
+checking for make --output-sync value... none, default
+checking if find supports -delete... yes
+checking what type of tar was found... gnu
+checking that grep (/usr/bin/grep) -Fx handles empty lines in the pattern list correctly... yes
+checking for unzip... /usr/bin/unzip
+checking for zip... /usr/bin/zip
+checking for greadelf... [not found]
+checking for readelf... /usr/bin/readelf
+checking for dot... [not found]
+checking for stat... /usr/bin/stat
+checking for time... time [builtin]
+checking for flock... /usr/bin/flock
+checking for dtrace... [not found]
+checking for gpatch... [not found]
+checking for patch... [not found]
+checking if date is a GNU compatible version... yes
+checking bash version... 5.2.37
+checking if bash supports pipefail... yes
+checking if bash supports errexit (-e)... yes
+checking for pkg-config... no
+checking for default LOG value... 
+checking for JMOD compression type... zip-6, default
+checking whether or not a JDK suitable for linking from the run-time image should be produced... disabled, default
+checking if packaged modules are kept... enabled, default
+checking for --with-build-user... dente, default
+checking for --with-jdk-rc-name... OpenJDK Platform, default
+checking for --with-vendor-name... N/A, default
+checking for --with-jdk-rc-company-name... N/A, default
+checking for --with-vendor-url... https://openjdk.org/, default
+checking for --with-vendor-bug-url... https://bugreport.java.com/bugreport/, default
+checking for --with-vendor-vm-bug-url... https://bugreport.java.com/bugreport/crash.jsp, default
+checking for --with-version-string... <none>, default
+checking for --with-version-feature... 24, default
+checking for --with-version-date... 2025-03-18, default
+checking for --with-vendor-version-string... <disabled>, default
+checking for --with-macosx-bundle-name-base... OpenJDK, default
+checking for --with-macosx-bundle-id-base... net.java.openjdk-internal, default
+checking for --with-macosx-bundle-build-version... 0, default
+checking for version string... 24-internal-adhoc.dente.jdk
+configure: Found potential Boot JDK using configure arguments
+checking for Boot JDK... /c/progra~1/java/jdk-23
+checking Boot JDK version... java version "23.0.1" 2024-10-15 Java(TM) SE Runtime Environment (build 23.0.1+11-39) Java HotSpot(TM) 64-Bit Server VM (build 23.0.1+11-39, mixed mode, sharing)
+checking for java [Boot JDK]... $BOOT_JDK/bin/java
+checking for javac [Boot JDK]... $BOOT_JDK/bin/javac
+checking for javadoc [Boot JDK]... $BOOT_JDK/bin/javadoc
+checking for jar [Boot JDK]... $BOOT_JDK/bin/jar
+checking if Boot JDK jar supports --date=TIMESTAMP... true
+checking if Boot JDK is 32 or 64 bits... 64
+checking for local Boot JDK Class Data Sharing (CDS)... yes, created
+checking for Build JDK... yes, will use output dir
+checking for docs-reference JDK... no, using interim javadoc for the docs-reference targets
+checking what source date to use... 1733014305, from 'current' (default)
+checking if we should build headless-only (no GUI)... disabled, default
+checking if linker should clean out unused code (linktime-gc)... disabled, default
+checking for graphviz dot... no, cannot generate full docs
+checking for pandoc... no, cannot generate full docs
+checking for --enable-full-docs... disabled, from default 'auto'
+checking for cacerts file... default
+checking for cacerts source... default
+checking for --enable-unlimited-crypto... enabled, default
+checking for jni library path... default
+configure: Using default toolchain microsoft (Microsoft Visual Studio)
+configure: Found Visual Studio installation at /c/progra~1/mib055~1/2022/Community using well-known name
+configure: Found Microsoft Visual Studio 2022
+configure: Trying to extract Visual Studio environment variables for x86_64
+configure: using /c/progra~1/mib055~1/2022/Community/vc/auxiliary/build/vcvars64.bat 
+The system cannot find the file specified.
+configure: Setting extracted environment variables for x86_64
+fixpath: warning: Path '/usr/local/bin' does not exist
+fixpath: warning: Path '/opt/bin' does not exist
+fixpath: warning: Path '/usr/local/bin' does not exist
+fixpath: warning: Path '/opt/bin' does not exist
+checking that Visual Studio variables have been correctly extracted... ok
+checking for cl... $FIXPATH /c/progra~1/mib055~1/2022/commun~1/vc/tools/msvc/1442~1.344/bin/hostx64/x64/cl.exe
+checking resolved symbolic links for CC... no symlink
+configure: Using microsoft C compiler version 19.42.34435 [Microsoft (R) C/C++ Optimizing Compiler Version 19.42.34435 for x64]
+checking whether the C compiler works... no
+configure: error: in '/c/Users/dente/Desktop/JDK_Program_Analysis/jdk':
+configure: error: C compiler cannot create executables
+See 'config.log' for more details
+configure: loading site script /etc/config.site
+configure: Configuration created at Sat Nov 30 19:17:59 CST 2024.
+checking for basename... /usr/bin/basename
+checking for dirname... /usr/bin/dirname
+checking for file... /usr/bin/file
+checking for ldd... /usr/bin/ldd
+checking for echo... echo [builtin]
+checking for tr... /usr/bin/tr
+checking for uname... /usr/bin/uname
+checking for wc... /usr/bin/wc
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for locale... /usr/bin/locale
+checking for cygpath... /usr/bin/cygpath
+checking for cmd.exe... /c/Windows/System32/cmd.exe
+checking build system type... x86_64-pc-msys
+checking host system type... x86_64-pc-msys
+checking target system type... x86_64-pc-msys
+checking openjdk-build os-cpu... windows-x86_64
+checking openjdk-target os-cpu... windows-x86_64
+checking compilation type... native
+checking Windows environment type... msys2
+checking msys2 drive prefix... ''
+checking msys2 root directory as Windows path... 'C:\msys64'
+checking msys2 temp directory... /tmp
+checking msys2 release... 3.5.4-0bc1222b.x86_64
+checking msys2 version... 2024-11-23 10:59 UTC
+checking Windows version... 10.0.22631.4460
+checking what kind of 'find' is first on the PATH... unix style
+checking for top-level directory... /c/users/dente/desktop/jdk_program_analysis/jdk
+checking for bash... /usr/bin/bash
+checking for cat... /usr/bin/cat
+checking for chmod... /usr/bin/chmod
+checking for cp... /usr/bin/cp
+checking for cut... /usr/bin/cut
+checking for date... /usr/bin/date
+checking for gdiff... [not found]
+checking for diff... /usr/bin/diff
+checking for expr... /usr/bin/expr
+checking for find... /usr/bin/find
+checking for gunzip... /usr/bin/gunzip
+checking for pigz... [not found]
+checking for gzip... /usr/bin/gzip
+checking for head... /usr/bin/head
+checking for ln... /usr/bin/ln
+checking for ls... /usr/bin/ls
+checking for gmkdir... [not found]
+checking for mkdir... /usr/bin/mkdir
+checking for mktemp... /usr/bin/mktemp
+checking for mv... /usr/bin/mv
+checking for gawk... /usr/bin/gawk
+checking for printf... printf [builtin]
+checking for rm... /usr/bin/rm
+checking for rmdir... /usr/bin/rmdir
+checking for sh... /usr/bin/sh
+checking for sort... /usr/bin/sort
+checking for tail... /usr/bin/tail
+checking for gtar... [not found]
+checking for tar... /usr/bin/tar
+checking for tee... /usr/bin/tee
+checking for touch... /usr/bin/touch
+checking for xargs... /usr/bin/xargs
+checking for fgrep... /usr/bin/grep -F
+checking for cmake... [not found]
+checking for df... /usr/bin/df
+checking for git... /usr/bin/git
+checking for nice... /usr/bin/nice
+checking for greadlink... [not found]
+checking for readlink... /usr/bin/readlink
+checking for whoami... /usr/bin/whoami
+checking for lsb_release... [not found]
+checking for cmp... /usr/bin/cmp
+checking for uniq... /usr/bin/uniq
+checking for build environment type... dev, default (calculated from 'auto')
+checking if custom source is suppressed (openjdk-only)... disabled, default
+checking for --enable-debug... disabled, default
+checking which debug level to use... release
+checking which variants of the JVM to build... server
+checking if absolute paths should be allowed in the build output... no, release build
+checking for toolchain path... 
+checking for sysroot... 
+checking for extra path... 
+checking where to store configuration... in default location
+checking what configuration name to use... windows-x86_64-server-release
+checking for zypper... [not found]
+checking for apt-get... [not found]
+checking for yum... [not found]
+checking for brew... [not found]
+checking for port... [not found]
+checking for pkgutil... [not found]
+checking for pkgadd... [not found]
+checking for pacman... /usr/bin/pacman
+checking for pandoc... [not found]
+checking for gmake... [not found]
+checking for make... /usr/bin/make
+configure: Testing potential make at /usr/bin/make, found using make in PATH
+configure: Using GNU make at /usr/bin/make (version: GNU Make 4.4.1)
+checking if make --output-sync is supported... yes
+checking for make --output-sync value... none, default
+checking if find supports -delete... yes
+checking what type of tar was found... gnu
+checking that grep (/usr/bin/grep) -Fx handles empty lines in the pattern list correctly... yes
+checking for unzip... /usr/bin/unzip
+checking for zip... /usr/bin/zip
+checking for greadelf... [not found]
+checking for readelf... /usr/bin/readelf
+checking for dot... [not found]
+checking for stat... /usr/bin/stat
+checking for time... time [builtin]
+checking for flock... /usr/bin/flock
+checking for dtrace... [not found]
+checking for gpatch... [not found]
+checking for patch... [not found]
+checking if date is a GNU compatible version... yes
+checking bash version... 5.2.37
+checking if bash supports pipefail... yes
+checking if bash supports errexit (-e)... yes
+checking for pkg-config... no
+checking for default LOG value... 
+checking for JMOD compression type... zip-6, default
+checking whether or not a JDK suitable for linking from the run-time image should be produced... disabled, default
+checking if packaged modules are kept... enabled, default
+checking for --with-build-user... dente, default
+checking for --with-jdk-rc-name... OpenJDK Platform, default
+checking for --with-vendor-name... N/A, default
+checking for --with-jdk-rc-company-name... N/A, default
+checking for --with-vendor-url... https://openjdk.org/, default
+checking for --with-vendor-bug-url... https://bugreport.java.com/bugreport/, default
+checking for --with-vendor-vm-bug-url... https://bugreport.java.com/bugreport/crash.jsp, default
+checking for --with-version-string... <none>, default
+checking for --with-version-feature... 24, default
+checking for --with-version-date... 2025-03-18, default
+checking for --with-vendor-version-string... <disabled>, default
+checking for --with-macosx-bundle-name-base... OpenJDK, default
+checking for --with-macosx-bundle-id-base... net.java.openjdk-internal, default
+checking for --with-macosx-bundle-build-version... 0, default
+checking for version string... 24-internal-adhoc.dente.jdk
+configure: Found potential Boot JDK using configure arguments
+checking for Boot JDK... /c/progra~1/java/jdk-23
+checking Boot JDK version... java version "23.0.1" 2024-10-15 Java(TM) SE Runtime Environment (build 23.0.1+11-39) Java HotSpot(TM) 64-Bit Server VM (build 23.0.1+11-39, mixed mode, sharing)
+checking for java [Boot JDK]... $BOOT_JDK/bin/java
+checking for javac [Boot JDK]... $BOOT_JDK/bin/javac
+checking for javadoc [Boot JDK]... $BOOT_JDK/bin/javadoc
+checking for jar [Boot JDK]... $BOOT_JDK/bin/jar
+checking if Boot JDK jar supports --date=TIMESTAMP... true
+checking if Boot JDK is 32 or 64 bits... 64
+checking for local Boot JDK Class Data Sharing (CDS)... yes, created
+checking for Build JDK... yes, will use output dir
+checking for docs-reference JDK... no, using interim javadoc for the docs-reference targets
+checking what source date to use... 1733015887, from 'current' (default)
+checking if we should build headless-only (no GUI)... disabled, default
+checking if linker should clean out unused code (linktime-gc)... disabled, default
+checking for graphviz dot... no, cannot generate full docs
+checking for pandoc... no, cannot generate full docs
+checking for --enable-full-docs... disabled, from default 'auto'
+checking for cacerts file... default
+checking for cacerts source... default
+checking for --enable-unlimited-crypto... enabled, default
+checking for jni library path... default
+configure: Using default toolchain microsoft (Microsoft Visual Studio)
+configure: error: Cannot locate a valid Visual Studio installation
